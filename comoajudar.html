@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda</title>
+    <link rel="stylesheet" href="styles/style.css".css">
+</head>
+<body>
+    <header>
+
+        <div id="logo">
+            <img id="ftlogo" src="assets/icone-logo.svg" alt="Ícone da logo do PataCerta">
+            <h1 id="startheader">PataCerta</h1>
+        </div>
+
+        <nav>
+            <a href="#" class="sublinhado"><h2>Institucional</h2></a>
+            <a href="#" class="sublinhado"><h2>Blog</h2></a>
+            <a href="#" class="sublinhado"><h2>Suporte</h2></a>
+            <a href="#" class="sublinhado"><h2>Adotar</h2></a>
+            <a href="#"><h2 class="laranja" id="fimheader">Seja colaborador</h2></a>
+         </nav>
+
+    </header>
+
+    <main>
+        <section id="comoajudar">
+            <h1>Como podemos ajudar?</h1>
+            <p>Encontre respostas rápidas ou entre em contato com a nossa equipe.</p>
+        </section>
+
+        <section id="observacao">
+
+            <div class="obs">
+                <img src="assets/Icone-Coracao.svg" alt="" height="20em" width="20rem">
+                <h4>Processo de Adoção</h4>
+                <p>Saiba como funciona todo o processo de adoção</p>
+            </div>
+
+            <div class="obs">
+                <img src="assets/icone-casa.svg" alt="" height="20em" width="20em">
+                <h4>Cuidados com Pet</h4>
+                <p>Dicas para cuidar do seu novo amigo</p>
+            </div>
+
+            <div class="obs">
+                <img src="assets/icone-cardeneta.svg" alt="" height="20em" width="20em">
+                <h4>Documentação</h4>
+                <p>Documentos necessários para adoção</p>
+            </div>
+
+        </section>
+
+        <section id="perguntasfreq">
+            <div id="frequentes">
+                <h3>Perguntas Frequentes</h3>
+            </div>
+
+
+            <div id="perguntaum" class="perguntas" >
+                <div class="subtitulos">
+                    <h5>Como funciona o processo de adoção?</h5>
+                    <img src="assets/icone-seta-baixo.svg" alt="">
+                </div>
+                <p>O processo de adoção é simples e seguro. Primeiro, escolha um pet, preencha o formulário de interesse e aguarde nosso contato para uma entrevista inicial.</p>
+            </div>
+
+
+            <div class="perguntas">
+                <div class="subtitulos">
+                    <h5>Quais documentos são necessários?</h5>
+                    <img src="assets/icone-seta-baixo.svg" alt="">
+                </div>
+                <p>É necessário apresentar RG, CPF, comprovante de residência e assinar o termo de responsabilidade.</p>
+            </div class="perguntas">
+
+
+            <div class="perguntas">
+                <div class="subtitulos">
+                    <h5>Existe taxa de adoção?</h5>
+                    <img src="assets/icone-seta-baixo.svg" alt="">
+                </div>
+                <p>Não cobramos taxa de adoção, mas incentivamos doações para ajudar outros animais.</p>
+            </div>
+
+        </section>
+
+        <section id="duvidas">
+            <div id="canais">
+                <h3>Ainda tem dúvidas?</h3>
+                <p>Nossa equipe está pronta para ajudar! Entre em contato conosco pelos canais abaixo:</p>
+                <div class="meios">
+                    <img src="assets/icone-envelope.svg" alt="Ícone de envelope" height="16px" width="16px" class="background" style="border: 10px solid #FFEDD5"></img>
+                    <div class="quebradelinha">
+                        <h5>Email</h5>
+                        <p>suporte@patacerta.com.br</p>
+                    </div>
+                </div>
+                <div class="meios">
+                    <img src="assets/icone-telefone.svg" alt="Ícone de telefone" height="16px" width="16px" class="background" style="border: 10px solid #FFEDD5">
+                    <div class="quebradelinha">
+                        <h5>Telefone</h5>
+                        <p>(11) 99999-9999</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="enviodemsg">
+                <form action="#">
+                    <h3>Envie sua mensagem</h3>
+                    <h6>Nome completo</h6>
+                    <label for="inome"></label>
+                    <input type="text" autocomplete="name" required>
+
+                    <h6>Email</h6>
+                    <label for="iemail"></label>
+                    <input type="email" autocomplete="email" required>
+                    
+                    <h6>Assunto</h6>
+                    <label for="iassunto"></label>
+                    <select name="assunto" id="iassunto" required>
+                        <option value="" selected>Selecione um assunto</option>
+                        <optgroup label="Opções">
+                            <option value="auxilio">Auxílio</option>
+                            <option value="nutricao">Nutrição</option>
+                        </optgroup>
+                    </select>
+
+                    <h6>Mensagem</h6>
+                    <label for="imensagem"></label>
+                    <textarea name="mensagem" id="imensagem" cols="30" rows="6" required></textarea>
+                    <br>
+                    <button type="submit" id="enviamsg">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="colunasrodape">
+            <div id="coluna1" class="colunas">
+                <h3 class="titulorodape"><img src="assets/icone-logo.svg" class="logorodape" alt="Logo do PataCerta" width="18px">PataCerta</h3>
+                <p>Conectando pets e humans com <br> amor desde 2025</p>
+            </div>
+
+
+            <div id="coluna2" class="colunas">
+                <h3>Links Úteis</h3>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Como Adotar</a>
+                <a href="#">Doar Pet</a>
+                <a href="#">Contato</a>
+            </div>
+
+
+            <div id="coluna3" class="colunas">
+                <h3>Contato</h3>
+                <a href="#"><img src="assets/icone-envelope.svg" alt="Ícone de envelope">contato@gmail.com</a>
+                <a href="#"><img src="assets/icone-telefone.svg" alt="ícone de telefone">(11) 99999-9999</a>
+            </div>
+
+
+            <div id="coluna4" class="colunas">
+                <h3>Redes Sociais</h3>
+                <section id="iconesredes">
+                    <a href="#"><img src="assets/icone-facebook.svg" alt="ícone do Facebook"></a>
+                    <a href="#"><img src="assets/icone-instagram.svg" alt="ícone do Instagram"></a>
+                </section>
+            </div>
+        </section>
+
+        <section id="direitos">
+            <span id="regua"></span>
+            <p>&copy PataCerta. Todos os direitos reservados.</p>
+        </section>
+    </footer>
+</body>
+</html>

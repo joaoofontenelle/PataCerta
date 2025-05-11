@@ -1,0 +1,610 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 8px;
+    justify-content: space-between;
+    padding: 1.7em 0px 3em 0px;
+}
+
+#ftlogo {
+    margin: 10px 0px 0px 10px;
+} 
+
+#logo {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 106, 0);
+    font-size: x-small;
+    padding-left: 5em;
+}
+
+nav {
+    display: flex;
+}
+
+nav > .sublinhado {
+    padding: 16px 12px 0px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+nav > a {
+    display: inline;
+    float: right;
+    cursor: pointer;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #1F2937;
+}
+
+nav > a:active{
+    color: #f97316;
+}
+
+nav > .sublinhado {
+    display: inline-block;
+    position: relative;
+    color: #1F2937;
+    cursor: pointer;
+    transition: 0.45s all ease;
+}
+
+nav > .sublinhado:hover {
+    color: #f97316;
+    transition: 0.45s all ease;
+}
+
+nav > .sublinhado::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #f97316;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+
+nav > .sublinhado:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#fimheader {
+    margin: 9px 40px 0px 9px;
+    color: white;
+    background-color: rgb(255, 106, 0);
+    border-radius: 2em;
+    border: 8px solid rgb(255, 106, 0);
+    font-weight: 390;
+}
+
+#fimheader:hover {
+    transform: scale(1.1);
+    transition: 0.45s ease;
+}
+
+#startheader {
+    padding: 16px 0px 0px 6px;
+}
+
+#banner {
+    background-color: #FFF7ED;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30em;
+    width: 100%;
+}
+
+.adotar {
+    color: white;
+    background-color: rgb(255, 106, 0);
+    border-radius: 2em;
+    border: 8px solid rgb(255, 106, 0);
+    font-weight: 390;
+    font-size: small;
+    text-decoration: none;
+}
+
+#conteudo > p {
+    padding: 16px 0px 24px 0px;
+    font-size: small;
+}
+
+#conteudo > h2 {
+    font-size: xx-large;
+}
+
+#ftbanner {
+    border-radius: 2em;
+    width: 560px; 
+    height: 470px;
+    margin-top: 9px;
+}
+
+main {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+#funcionamento {
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#encontre > p {
+    padding-top: 12px;
+    font-size: x-small;
+}
+
+
+#entrectt > p {
+    padding-top: 12px;
+    font-size: x-small;
+}
+
+
+#adocao > p {
+    padding-top: 12px;
+    font-size: x-small;
+}
+
+main > p {
+    padding-top: 36px;
+    font-size: x-small;
+}
+
+main > h3 {
+    padding-top: 36px;
+}
+
+.pets {
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
+    padding-bottom: 1.75em;
+    width: 330px;
+}
+
+.pets > h4, p {
+    padding: 5px 0px 5px 1em;
+}
+
+.icons {
+    padding: 0px 6px 0px 0px;
+}
+
+.background {
+    background-color: #FFEDD5;
+    border-radius: 100%;
+    border: 1em solid #FFEDD5;
+}
+
+#disponiveis {
+    padding: 2.5em 0px 4em 0px;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.justify {
+    text-align: justify;
+}
+
+#data {
+    padding-bottom: 1.5em;
+}
+
+.conhecer {
+    color: white;
+    background-color: #f97316;
+    padding: 4px 6.6em 4px 6.6em;
+    border-radius: 0.3em;
+    text-decoration: none;
+}
+
+main > a {
+    background-color: white;
+    color: #f97316;
+    border: 2.6px solid #f97316;
+    border-radius: 3em;
+    padding: 0.5em 2em 0.5em 2em;
+    width: 7em;
+    text-decoration: none;
+}
+
+#novoamigo {
+    background-color: #f97316;
+    margin-top: 5em;
+    padding: 3.6em;
+}
+
+#novoamigo > a {
+    text-decoration: none;
+    color: #f97316;
+    background-color: #F9FAFB;
+    padding: 0.9em 2em 0.9em 2em;
+    border-radius: 2em;
+    font-size: small;
+}
+
+#novoamigo > h3 {
+    color: white;
+}
+
+#novoamigo > p {
+    padding: 1.3em 0px 2.4em 0px;
+    font-size: small;
+    color: rgba(255, 255, 255, 0.945);
+    font-weight: 100;
+}
+
+.linha1rodape {
+    font-size: small;
+    padding: 30px 30px 30px 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #1F2937;
+    color: rgb(241, 243, 245);
+    font-family: "Poppins", sans-serif;
+}
+
+.logorodape {
+    padding-right: 4px;
+}
+
+.colunasrodape {
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    padding: 2em 4em 2em 4em;
+}
+
+#coluna2 {
+    flex-direction: column;
+}
+
+#coluna3 {
+    flex-direction: column;
+}
+
+.colunas > h3 {
+    padding-bottom: 12px;
+}
+
+.colunas > a, p {
+    color: #9CA3AF;
+    display: block;
+    text-decoration: none;
+}
+
+.colunas > a:hover {
+    color: #f97316;
+    text-decoration: underline;
+}
+
+.colunas > a > img {
+    padding-right: 4px;
+}
+
+#iconesredes {
+    display: flex;
+    justify-content: center; 
+    gap: 4px;
+}
+
+#direitos {
+    padding-bottom: 2.8em;
+}
+
+#regua {
+    display: block; 
+    padding:0; 
+    margin: 10px auto; 
+    width: 86%; 
+    height:1px; 
+    background-color: #9ca3af3d;;
+}
+
+#direitos > p {
+    text-align: center;
+    color: #9CA3AF;
+    padding-top: 12px;
+}
+
+#contribuicao {
+    text-align: justify;
+    display: flex;
+    width: 70em;
+    gap: 3em;
+    margin: auto;
+    padding-top: 5em;
+}
+
+#imagem > img {
+    border-radius: 2em;
+}
+
+#texto > p {
+    color: black;
+    padding: 8px 0px 3em 0px;
+}
+
+#texto > h3 {
+    padding-bottom: 20px;
+}
+
+#boxes {
+    padding-bottom: 2em;
+}
+
+#boxes, #boxes2 {
+    display: flex;
+    justify-content: center;
+    gap: 1.2em;
+    border-radius: 2em;
+}
+
+#vejamais {
+    display: flex;
+    justify-content: center;
+    gap: 16em;
+    padding-bottom: 2em;
+    margin-top: 6em;
+}
+
+#vejamais > a {
+    color: #f97316;
+    text-decoration: none;
+}
+
+#vejamais > a:hover {
+    text-decoration: underline;
+}
+
+.boxlink {
+    text-decoration: none;
+    color: black;
+}
+
+.pets2 {
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
+    padding-bottom: 1.75em;
+    width: 260px;
+    height: 310px;
+}
+
+.pets2 > h6, h5 {
+    text-align: left;
+    margin-left: 0.7em;
+}
+
+.pets2 > p {
+    text-align: left;
+    font-size: x-small;
+    color: #1F2937;
+}
+
+.pets2:hover {
+    transform: scale(1.05);
+    transition: 0.65s ease;
+}
+
+#ultimosposts {
+    margin-bottom: 6em;
+}
+
+.auxilio {
+    background-color: rgba(79, 79, 255, 0.438);
+    width: 4em;
+    color: blue;
+    border-radius: 2em;
+    padding: 0.5em;
+    margin: 1em 0em 1em 0em;
+}
+
+.nutricao {
+    background-color: #FEF3C7;
+    width: 4.5em;
+    color: #D97706;
+    border-radius: 2em;
+    padding: 0.5em;
+    margin: 1em 0em 1em 0em;
+}
+
+#historias {
+    display: flex;
+    justify-content: center;
+    margin-top:2em;
+    gap: 2em;
+}
+
+.familia {
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+}
+
+.familia > img {
+    border-radius: 3em;
+}
+
+.feedback {
+    display: flex;
+    text-align: start;
+    width: 30em;
+    height: 9rem;
+    padding: 0.5em 1em 0.5px 1em;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
+    border-radius: 1em;
+}
+
+.avaliacao {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.avaliacao > h3 {
+    padding-left: 0.7em;
+}
+
+.avaliacao > p {
+    color: #1F2937;
+    font-size: small;
+}
+
+.primeiraestrela {
+    padding-left: 1em;
+}
+
+#comoajudar {
+    background-image: linear-gradient(to right, #FFF7ED, #FFFFFF);
+    padding: 80px;
+}
+
+#comoajudar > p {
+    font-weight: 300;
+    color: black;
+}
+
+#observacao {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0em 2em 0em;
+}
+
+.obs {
+    background-color: #FFF7ED;
+    width: 20em;
+    padding: 1em 0em 1em 0em;
+    border-radius: 1em;
+}
+
+.obs > p {
+    font-size: small;
+    color: black;
+    font-weight: 100;
+}
+
+#perguntasfreq {
+    background-color: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 2em 0em 2em 0em;
+}
+
+.perguntas {
+    width: 32em;
+    margin: 0.5em 0em 0.5em 0em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.perguntas > p {
+    font-size: small;
+    color: black;
+    font-weight: 100;
+    margin-top: 12px;
+}
+
+#perguntaum {
+    margin-top: 2em;
+}
+
+.subtitulos {
+    display: flex;
+    justify-content: space-between;
+}
+
+#duvidas {
+    text-align: justify;
+    padding: 2em 0em 2em 0em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#canais > p {
+    font-size: small;
+    color: black;
+    font-weight: 100;
+    width: 300px;
+}
+
+.meios {
+    display: flex;
+    align-items: center;
+    margin: 1em 0em 1em 0em;
+}
+
+.quebradelinha > p {
+    font-size: small;
+    color: black;
+    font-weight: 100;
+    width: 300px;
+}
+
+#enviodemsg {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAFB;
+    width: 18em;
+    padding: 1em;
+    border-radius: 0.7em;
+    align-items: center;
+}
+
+form > h6 {
+    height: 2.2em;
+    margin: 8px 0px 0px 0px;
+}
+
+form > input {
+    width: 20em;
+}
+
+#iassunto, #imensagem {
+    width: 20em;
+}
+
+#enviamsg {
+    background-color: #f97316;
+    border-color: #f97316;
+    width: 20em;
+    height: 2em;
+    color: white;
+    font-weight: 100;
+    border-radius: 0.25em;
+    border: 0;
+}
+
+#enviamsg:hover {
+    cursor: pointer;
+}
