@@ -593,12 +593,6 @@ form > input, select, textarea {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
 }
 
-form > input:focus, textarea:focus {
-    outline: none;
-    background-color: #f97316
-    ;
-}
-
 form > input, select {
     height: 1.75em;
 }
