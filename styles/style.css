@@ -111,6 +111,7 @@ header {
     background-color: #FFF7ED;
     font-family: "Poppins", sans-serif;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
     height: 100vdh;
@@ -156,7 +157,7 @@ main {
 #funcionamento {
     padding-top: 30px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #encontre > p {
@@ -210,6 +211,7 @@ main > h3 {
     padding: 2.5em 0px 4em 0px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 1em;
 }
@@ -408,8 +410,8 @@ footer {
     border-radius: 8px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
     padding-bottom: 1.75em;
-    width: 260px;
-    height: 310px;
+    width: 15rem;
+    height: 20rem;
 }
 
 .pets2 > h6, h5 {
@@ -429,7 +431,10 @@ footer {
 }
 
 #ultimosposts {
+    display: flex;
     margin-bottom: 6em;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .auxilio {
@@ -453,6 +458,7 @@ footer {
 #historias {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top:2em;
     gap: 2em;
 }
@@ -470,9 +476,9 @@ footer {
 .feedback {
     display: flex;
     text-align: start;
-    width: 30em;
-    height: 9rem;
-    padding: 0.5em 1em 0.5px 1em;
+    width: 13rem;
+    height: 14rem;
+    padding: 0.5em 1rem 0.5px 1rem;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
     border-radius: 1em;
 }
