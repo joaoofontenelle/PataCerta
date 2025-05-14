@@ -284,6 +284,8 @@ footer {
     color: rgb(241, 243, 245);
     font-family: "Poppins", sans-serif;
     text-align: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .logorodape {
@@ -292,7 +294,7 @@ footer {
 
 .colunasrodape {
     display: flex;
-    width: 100vw;
+    max-width: 100%;
     gap: 3em;
     padding: 2em 4em 2em 4em;
     font-size: xx-small;
@@ -314,6 +316,7 @@ footer {
     color: #9CA3AF;
     display: block;
     text-decoration: none;
+    
 }
 
 .colunas > a:hover {
