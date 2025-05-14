@@ -283,6 +283,7 @@ footer {
     background-color: #1F2937;
     color: rgb(241, 243, 245);
     font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 
 .logorodape {
@@ -292,9 +293,9 @@ footer {
 .colunasrodape {
     display: flex;
     width: 100vw;
-    gap: 2em;
-    justify-content: space-around;
+    gap: 3em;
     padding: 2em 4em 2em 4em;
+    font-size: xx-small;
 }
 
 #coluna2 {
@@ -336,10 +337,10 @@ footer {
 
 #regua {
     display: block; 
-    padding:0; 
+    padding: 0; 
     margin: 10px auto; 
-    width: 86%; 
-    height:1px; 
+    width: 86vw; 
+    height: 1px; 
     background-color: #9ca3af3d;;
 }
 
