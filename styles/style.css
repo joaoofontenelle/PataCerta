@@ -29,35 +29,36 @@ header {
     align-items: center;
     color: rgb(255, 106, 0);
     font-size: x-small;
-    padding-left: 5em;
 }
 
-nav {
+#linhadenav {
     display: flex;
+    align-items: center;
+    display: none;
 }
 
-nav > .sublinhado {
+#linhadenav > .sublinhado {
     padding: 16px 12px 0px 12px;
     text-decoration: none;
     color: black;
 }
 
-nav > a {
+#linhadenav > a {
     display: inline;
     float: right;
     cursor: pointer;
 }
 
-nav > a {
+#linhadenav > a {
     text-decoration: none;
     color: #1F2937;
 }
 
-nav > a:active{
+#linhadenav > a:active{
     color: #f97316;
 }
 
-nav > .sublinhado {
+#linhadenav > .sublinhado {
     display: inline-block;
     position: relative;
     color: #1F2937;
@@ -65,12 +66,12 @@ nav > .sublinhado {
     transition: 0.45s all ease;
 }
 
-nav > .sublinhado:hover {
+#linhadenav > .sublinhado:hover {
     color: #f97316;
     transition: 0.45s all ease;
 }
 
-nav > .sublinhado::after{
+#linhadenav > .sublinhado::after{
     content: '';
     position: absolute;
     width: 100%;
@@ -83,7 +84,7 @@ nav > .sublinhado::after{
     transition: transform 0.5s ease-out;
 }
 
-nav > .sublinhado:hover::after {
+#linhadenav > .sublinhado:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -111,9 +112,10 @@ nav > .sublinhado:hover::after {
     font-family: "Poppins", sans-serif;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    height: 30em;
-    width: 100%;
+    flex-direction: column-reverse;
+    height: 100vdh;
+    width: 100vdw;
+    padding: 2rem 0rem 2rem 0rem;
 }
 
 .adotar {
@@ -124,6 +126,10 @@ nav > .sublinhado:hover::after {
     font-weight: 390;
     font-size: small;
     text-decoration: none;
+}
+
+#conteudo {
+    text-align: center;
 }
 
 #conteudo > p {
@@ -137,8 +143,8 @@ nav > .sublinhado:hover::after {
 
 #ftbanner {
     border-radius: 2em;
-    width: 560px; 
-    height: 470px;
+    width: 375px; 
+    height: 350px;
     margin-top: 9px;
 }
 
@@ -148,7 +154,7 @@ main {
 }
 
 #funcionamento {
-    padding-top: 36px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -203,7 +209,8 @@ main > h3 {
 #disponiveis {
     padding: 2.5em 0px 4em 0px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 1em;
 }
 
@@ -336,21 +343,28 @@ footer {
 }
 
 #contribuicao {
-    text-align: justify;
     display: flex;
-    width: 70em;
+    justify-content: center;
     gap: 3em;
-    margin: auto;
     padding-top: 5em;
 }
 
 #imagem > img {
     border-radius: 2em;
+    text-align: center;
+    position: relative;
+    top: 11rem;
+}
+
+#texto {
+    font-size: small;
+    width: 14rem;
+    text-align: justify;
 }
 
 #texto > p {
     color: black;
-    padding: 8px 0px 3em 0px;
+    padding: 4px 0px 1.5em 0px;
 }
 
 #texto > h3 {
