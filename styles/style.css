@@ -355,7 +355,7 @@ footer {
 
 #contribuicao {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     gap: 3em;
     padding-top: 5em;
 }
@@ -363,14 +363,13 @@ footer {
 #imagem > img {
     border-radius: 2em;
     text-align: center;
-    position: relative;
-    top: 11rem;
 }
 
 #texto {
     font-size: small;
     width: 14rem;
-    text-align: justify;
+    margin: auto;
+    width: 100%;
 }
 
 #texto > p {
@@ -388,7 +387,8 @@ footer {
 
 #boxes, #boxes2 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    margin: auto;
     gap: 1.2em;
     border-radius: 2em;
 }
