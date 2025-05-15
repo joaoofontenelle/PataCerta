@@ -290,9 +290,6 @@ footer {
     display: flex;
     justify-content: center;
     max-width: 100%;
-    gap: 6em;
-    padding: 2em 4em 2em 4em;
-    font-size: xx-small;
     gap: 3em;
     padding: 2em 0em 2em 0em;
     font-size: small;
@@ -483,6 +480,8 @@ footer {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
     border-radius: 1em;
 }
+
+#linha1footer, @
 
 .avaliacao {
     display: flex;
