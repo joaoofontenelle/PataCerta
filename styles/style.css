@@ -191,12 +191,12 @@ main > h3 {
 .pets {
     border-radius: 8px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
-    padding-bottom: 1.75em;
+    padding-bottom: 1.75rem;
     width: 330px;
 }
 
 .pets > h4, p {
-    padding: 5px 0px 5px 1em;
+    padding: 0px 0px 0px 1em;
 }
 
 .icons {
@@ -215,7 +215,7 @@ main > h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
 }
 
 .justify {
@@ -278,7 +278,6 @@ footer {
     font-family: "Poppins", sans-serif;
     text-align: center;
     justify-content: center;
-    margin: auto;
     max-width: 100%;
 }
 
@@ -290,9 +289,18 @@ footer {
     display: flex;
     justify-content: center;
     max-width: 100%;
-    gap: 3em;
-    padding: 2em 0em 2em 0em;
-    font-size: small;
+    padding: 2rem 0rem 2rem 0rem;
+    font-size: large;
+    gap: 4rem;
+}
+
+#coluna1, #coluna3 {
+    margin-bottom: 4em;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: column;
 }
 
 .colunas > h3 {
@@ -305,7 +313,7 @@ footer {
 }
 
 .colunas > a {
-    padding: 0px 0px 5px 0px;
+    padding: 0px 0px 14px 0px;
 }
 
 .colunas > a:hover {
@@ -321,6 +329,11 @@ footer {
     display: flex;
     justify-content: center; 
     gap: 4px;
+}
+
+#iconesredes > a > img {
+    width: 3rem;
+    height: 3rem;
 }
 
 #direitos {
@@ -378,7 +391,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin: auto;
-    gap: 1.2em;
+    gap: 2rem;
     border-radius: 2em;
 }
 
@@ -408,7 +421,7 @@ footer {
     border-radius: 8px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
     padding-bottom: 1.75em;
-    width: 15rem;
+    width: 20rem;
     height: 20rem;
 }
 
@@ -457,7 +470,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:2em;
+    margin-top: 2rem;
     gap: 2em;
 }
 
@@ -474,14 +487,12 @@ footer {
 .feedback {
     display: flex;
     text-align: start;
-    width: 18rem;
-    height: 10rem;
-    padding: 0.5em 1rem 0.5px 1rem;
+    width: 20rem;
+    height: 14rem;
+    padding: 2rem 1rem 0.5px 1rem;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
     border-radius: 1em;
 }
-
-#linha1footer, @
 
 .avaliacao {
     display: flex;
@@ -494,7 +505,7 @@ footer {
 
 .avaliacao > p {
     color: #1F2937;
-    font-size: small;
+    font-size: normal;
 }
 
 .primeiraestrela {
