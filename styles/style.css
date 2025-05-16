@@ -277,12 +277,11 @@ footer {
     color: rgb(241, 243, 245);
     font-family: "Poppins", sans-serif;
     text-align: center;
-    justify-content: center;
     max-width: 100%;
 }
 
 .logorodape {
-    padding-right: 4px;
+    padding-right: 6px;
 }
 
 .colunasrodape {
@@ -291,11 +290,16 @@ footer {
     max-width: 100%;
     padding: 2rem 0rem 2rem 0rem;
     font-size: large;
-    gap: 4rem;
+    gap: 10rem;
 }
 
 #coluna1, #coluna3 {
     margin-bottom: 4em;
+}
+
+#coluna3 {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .colunas {
@@ -312,7 +316,7 @@ footer {
     text-decoration: none;
 }
 
-.colunas > a {
+.colunas > p, a {
     padding: 0px 0px 14px 0px;
 }
 
@@ -369,7 +373,6 @@ footer {
 
 #texto {
     font-size: small;
-    width: 14rem;
     margin: auto;
     width: 100%;
 }
@@ -377,6 +380,8 @@ footer {
 #texto > p {
     color: black;
     padding: 4px 0px 1.5em 0px;
+    width: 20rem;
+    margin: auto;
 }
 
 #texto > h3 {
