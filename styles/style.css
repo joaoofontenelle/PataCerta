@@ -124,11 +124,12 @@ header {
 .adotar {
     color: white;
     background-color: rgb(255, 106, 0);
-    border-radius: 2em;
+    border-radius: 2rem;
     border: 8px solid rgb(255, 106, 0);
     font-weight: 390;
     font-size: small;
     text-decoration: none;
+    padding-bottom: 0;
 }
 
 #conteudo {
@@ -160,6 +161,7 @@ main {
     padding-top: 30px;
     display: flex;
     justify-content: center;
+    gap: 1rem;
 }
 
 #encontre > p {
@@ -290,7 +292,7 @@ footer {
     max-width: 100%;
     padding: 2rem 0rem 2rem 0rem;
     font-size: large;
-    gap: 10rem;
+    gap: 7.6rem;
 }
 
 #coluna1, #coluna3 {
@@ -311,7 +313,7 @@ footer {
     padding-bottom: 8px;
 }
 
-.colunas > a, p {
+.colunas > p, a {
     color: #9CA3AF;
     text-decoration: none;
 }
@@ -329,6 +331,10 @@ footer {
     padding-right: 6px;
 }
 
+.colunas > p > img {
+    padding-right: 6px;
+}
+
 #iconesredes {
     display: flex;
     justify-content: center; 
@@ -336,8 +342,8 @@ footer {
 }
 
 #iconesredes > a > img {
-    width: 3rem;
-    height: 3rem;
+    width: 2.25rem;
+    height: 2.25rem;
 }
 
 #direitos {
@@ -403,7 +409,7 @@ footer {
 #vejamais {
     display: flex;
     justify-content: center;
-    gap: 16em;
+    gap: 8em;
     padding-bottom: 2em;
     margin-top: 6em;
 }
