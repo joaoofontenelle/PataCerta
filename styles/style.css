@@ -599,7 +599,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 #canais > p {
@@ -607,6 +607,7 @@ footer {
     color: black;
     font-weight: 100;
     width: 300px;
+    margin-bottom: 3rem;
 }
 
 .meios {
@@ -626,14 +627,14 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: #F9FAFB;
-    width: 18em;
-    padding: 1em;
+    width: 20em;
+    padding: 2rem;
     border-radius: 0.7em;
     align-items: center;
 }
 
 form > h6 {
-    height: 2.2em;
+    height: 2.5em;
     margin: 8px 0px 0px 0px;
 }
 
@@ -645,7 +646,7 @@ form > input, select, textarea {
 }
 
 form > input, select {
-    height: 1.75em;
+    height: 2rem;
 }
 
 #iassunto, #imensagem {
