@@ -1,4 +1,16 @@
+/* --------- CONFIGURAÇÕES GERAIS --------- */
+
+
 @charset "UTF-8";
+
+:root {
+    --botao-azul: #167BF7;
+    --botao-azul-hover: #3c92fa;
+    --cinza-secundario: #C0C0C0;
+
+    --fonte-size-principal:16px;
+    --fonte-principal: 'Inter', sans-serif;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -111,6 +123,10 @@ header > nav {
 #startheader {
     padding: 16px 0px 0px 6px;
 }
+
+
+/* --------- INDEX --------- */
+
 
 #banner {
     background-color: #FFF7ED;
@@ -529,6 +545,10 @@ footer {
     padding-left: 1em;
 }
 
+
+/* --------- SUPORTE --------- */
+
+
 #comoajudar {
     background-image: linear-gradient(to right, #FFF7ED, #FFFFFF);
     padding: 80px;
@@ -667,3 +687,13 @@ form > input, select {
 #enviamsg:hover {
     cursor: pointer;
 }
+
+
+/* --------- SOBRE NÓS --------- */
+
+
+#transformando_vidas {
+    display: flex;
+    flex-direction: column;
+}
+
