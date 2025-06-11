@@ -4,7 +4,8 @@
 @charset "UTF-8";
 
 :root {
-    --cor-principal: rgb(255, 106, 0);;
+    --cor-principal: rgb(255, 106, 0);
+    --cor_secundaria:#FFF7ED;;
     --fonte-principal: 'Poppins', sans-serif;
 }
 
@@ -723,4 +724,28 @@ form > input, select {
 #nossa_missao > p {
     line-height: 1.5rem;
     font-size: small;
+}
+
+#como_comecou {
+    background-color: var(--cor_secundaria);
+    display: flex;
+    flex-direction: column;
+}
+
+#valores {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.estatisticas {
+    background-color: white;
+    width: 18rem;
+    height: 6rem;
+    margin: auto;
+}
+
+.estatisticas > h2 {
+    color: var(--cor-principal);
 }
