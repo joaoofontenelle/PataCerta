@@ -573,6 +573,10 @@ footer {
     margin: auto;
 }
 
+.obs > img {
+    margin-bottom: 0.5rem;
+}   
+
 .obs > p {
     font-size: small;
     color: black;
@@ -699,6 +703,7 @@ form > input, select {
     background-color: #FFF7ED;
     padding-top: 3rem;
     padding-bottom: 2.5rem;
+    padding-left: 0px;
 }
 
 #img_pets {
@@ -716,7 +721,7 @@ form > input, select {
     font-size: small;
     width: 20rem;
     margin: auto;
-    padding: 0px;
+    padding-left: 0px;
 }
 
 #nossa_missao > h2 {
@@ -725,14 +730,17 @@ form > input, select {
 
 #nossa_missao > p {
     line-height: 1.5rem;
-    width: 16rem;
+    width: 20rem;
     margin: auto;
-    padding: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
     font-size: small;
 }
 
 #como_nasceu {
     line-height: 1.5rem;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
 #como_nasceu > h2 {
@@ -742,13 +750,13 @@ form > input, select {
 #como_comecou {
     background-color: var(--cor_secundaria);
     padding: 1rem 0rem 1rem 0rem;
+    padding-left: 0px;
 }
 
 #como_nasceu > p {
     width: 22rem;
     padding: 0.5rem 0rem 0.5rem 0rem;
     margin: auto;
-    padding: 0px;
 }
 
 #valores {
@@ -762,14 +770,14 @@ form > input, select {
 .estatisticas {
     background-color: white;
     width: 10rem;
-    padding: 1rem;
+    padding: 1rem 0rem 1rem 0rem;
     margin: auto;
     border-radius: 1rem;
 }
 
 .estatisticas > h2 {
     color: var(--cor-principal);
-    padding-left: 1rem;
+    padding-left: 1.25rem;
 }
 
 #equipe {
