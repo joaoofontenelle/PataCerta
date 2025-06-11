@@ -726,26 +726,43 @@ form > input, select {
     font-size: small;
 }
 
+#como_nasceu {
+    line-height: 1.5rem;
+}
+
+#como_nasceu > h2 {
+    margin: 1rem 0rem 1rem 0rem;
+}
+
 #como_comecou {
     background-color: var(--cor_secundaria);
-    display: flex;
-    flex-direction: column;
+    padding: 1rem 0rem 1rem 0rem;
 }
 
 #valores {
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
 }
 
 .estatisticas {
     background-color: white;
-    width: 18rem;
-    height: 6rem;
+    width: 10rem;
+    padding: 1rem;
     margin: auto;
+    border-radius: 1rem;
 }
 
 .estatisticas > h2 {
     color: var(--cor-principal);
+    padding-left: 1rem;
+}
+
+#equipe {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
 }
