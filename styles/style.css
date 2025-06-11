@@ -714,8 +714,9 @@ form > input, select {
 
 #uma_por_vez > p {
     font-size: small;
-    width: 25rem;
+    width: 20rem;
     margin: auto;
+    padding: 0px;
 }
 
 #nossa_missao > h2 {
@@ -726,6 +727,7 @@ form > input, select {
     line-height: 1.5rem;
     width: 16rem;
     margin: auto;
+    padding: 0px;
     font-size: small;
 }
 
@@ -746,6 +748,7 @@ form > input, select {
     width: 22rem;
     padding: 0.5rem 0rem 0.5rem 0rem;
     margin: auto;
+    padding: 0px;
 }
 
 #valores {
