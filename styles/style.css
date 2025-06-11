@@ -568,7 +568,7 @@ footer {
 .obs {
     background-color: #FFF7ED;
     width: 18rem;
-    padding: 4rem 0.5rem 4rem 0rem;
+    padding: 4rem 1rem 4rem 0rem;
     border-radius: 1rem;
     margin: auto;
 }
@@ -769,7 +769,7 @@ form > input, select {
 .estatisticas {
     background-color: white;
     width: 10rem;
-    padding: 1rem 0.75rem 1rem 0rem;
+    padding: 1rem 1rem 1rem 0rem;
     margin: auto;
     border-radius: 1rem;
 }
