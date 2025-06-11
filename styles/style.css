@@ -13,7 +13,7 @@
 
 html, body {
     background-color: white;
-    max-width: 100vw;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
@@ -724,6 +724,8 @@ form > input, select {
 
 #nossa_missao > p {
     line-height: 1.5rem;
+    width: 16rem;
+    margin: auto;
     font-size: small;
 }
 
@@ -738,6 +740,12 @@ form > input, select {
 #como_comecou {
     background-color: var(--cor_secundaria);
     padding: 1rem 0rem 1rem 0rem;
+}
+
+#como_nasceu > p {
+    width: 22rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    margin: auto;
 }
 
 #valores {
