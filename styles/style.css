@@ -785,3 +785,7 @@ form > input, select {
     gap: 2rem;
     margin-top: 1rem;
 }
+
+.pfp {
+    border-radius: 5rem;
+}
