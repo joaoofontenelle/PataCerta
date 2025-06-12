@@ -795,8 +795,8 @@ form > input, select {
     flex-direction: column;
     gap: 2rem;
     background-color: #FFF7ED;
-    margin-top: 2rem;
-    padding-top: 2rem;
+    padding: 2rem 0rem 2rem 0rem;
+    margin: 2rem 0rem 2rem 0rem;
 }
 
 .card_valores {
@@ -809,4 +809,36 @@ form > input, select {
 
 .card_valores > h4 {
     padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+#faca_parte {
+    display: flex;
+    flex-direction: column;
+}
+
+#faca_parte > p {
+    width: 23rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#adotar_colaborar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#adotar_pet {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+#seja_colaborador {
+    color: var(--cor-principal);
+    border: 2.25px solid var(--cor-principal);
+    padding: 1rem;
+    border-radius: 3rem;
 }
