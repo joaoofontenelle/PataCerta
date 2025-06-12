@@ -789,3 +789,24 @@ form > input, select {
 .pfp {
     border-radius: 5rem;
 }
+
+#nossos_valores {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #FFF7ED;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.card_valores {
+    background-color: white;
+    width: 14rem;
+    padding: 1rem 1rem 1rem 0rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.card_valores > h4 {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
