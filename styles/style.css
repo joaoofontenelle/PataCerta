@@ -768,7 +768,7 @@ form > input, select {
 
 .estatisticas {
     background-color: white;
-    width: 10rem;
+    width: 10.5rem;
     padding: 1rem 1rem 1rem 0rem;
     margin: auto;
     border-radius: 1rem;
@@ -793,7 +793,7 @@ form > input, select {
 #nossos_valores {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     background-color: #FFF7ED;
     padding: 2rem 0rem 2rem 0rem;
     margin: 2rem 0rem 2rem 0rem;
@@ -801,15 +801,21 @@ form > input, select {
 
 .card_valores {
     background-color: white;
-    width: 14rem;
+    width: 11.065rem;
     padding: 1rem 1rem 1rem 0rem;
-    margin: auto;
     border-radius: 1rem;
 }
 
 .card_valores > h4 {
     padding: 0.5rem 0rem 0.5rem 0rem;
 }
+
+#cards1, #cards2 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 
 #faca_parte {
     display: flex;
