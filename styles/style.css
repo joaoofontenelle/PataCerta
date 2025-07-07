@@ -7,6 +7,7 @@
     --cor-principal: rgb(255, 106, 0);
     --cor_secundaria:#FFF7ED;
     --cor_terciaria: #E5E7EB;
+    --cor_quartenaria: #FFEDD5;
     --fonte-principal: 'Poppins', sans-serif;
 }
 
@@ -861,27 +862,77 @@ form > input, select {
     background-color: #E5E7EB;
 }
 
+#main_adotepets {
+    margin-top: 1rem;
+}
+
 #carrossel_galeria {
     display: flex;
     background-color: white;
-    width: 45rem;
+    width: 35rem;
     height: 30rem;
     border-radius: 0.75em;
     align-items: center;
     margin: auto;
-    margin-top: 1rem;
+    justify-content: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.322);
 }
 
 #thor {
     border-radius: 1.25rem;
-    margin: auto;
 }
 
 #caracteristicas_pet {
     background-color: white;
+    padding: 1rem 0rem 1rem 0rem;
+    border-radius: 0.75rem;
+    width: 35rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.322);
 }
 
-#caracteristicas_pet > h3{
-    color: black;
-    font-weight: 100;
+#caracteristicas_pet > div >  h3{
+    font-weight: normal;
+}
+
+#disponibilidade_local {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#disponibilidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor_quartenaria);
+    width: 10rem;
+    height: 0.25rem;
+    border-radius: 2.5rem;
+}
+
+#disponibilidade > h3 {
+    color: #EA580C;
+}
+
+#disponibilidade, #local {
+    display: flex;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+#disponibilidade > img, #local > img {
+    margin-right: 0.5rem;
+}
+
+#idade_porte, #sexo_vacina {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#idade_porte > div > h4, #sexo_vacina > div> h4 {
+    font-weight: normal;
 }
