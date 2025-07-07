@@ -5,7 +5,8 @@
 
 :root {
     --cor-principal: rgb(255, 106, 0);
-    --cor_secundaria:#FFF7ED;;
+    --cor_secundaria:#FFF7ED;
+    --cor_terciaria: #E5E7EB;
     --fonte-principal: 'Poppins', sans-serif;
 }
 
@@ -213,6 +214,7 @@ main > h3 {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
     padding-bottom: 1.75rem;
     width: 20rem;
+    background-color: white;
 }
 
 .pets > h4, p {
@@ -231,11 +233,13 @@ main > h3 {
 
 #disponiveis {
     padding: 2.5em 0px 4em 0px;
+    background-color: var(--cor_terciaria);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2em;
+    margin: 1rem 0rem 2rem 0rem;
 }
 
 .justify {
@@ -804,6 +808,7 @@ form > input, select {
     width: 11.065rem;
     padding: 1rem 1rem 1rem 0rem;
     border-radius: 1rem;
+
 }
 
 .card_valores > h4 {
@@ -851,3 +856,32 @@ form > input, select {
 
 
 /* --------- ADOTE PETS --------- */
+
+#body_adote_pets {
+    background-color: #E5E7EB;
+}
+
+#carrossel_galeria {
+    display: flex;
+    background-color: white;
+    width: 45rem;
+    height: 30rem;
+    border-radius: 0.75em;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+#thor {
+    border-radius: 1.25rem;
+    margin: auto;
+}
+
+#caracteristicas_pet {
+    background-color: white;
+}
+
+#caracteristicas_pet > h3{
+    color: black;
+    font-weight: 100;
+}
