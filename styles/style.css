@@ -869,7 +869,7 @@ form > input, select {
 #carrossel_galeria {
     display: flex;
     background-color: white;
-    width: 35rem;
+    width: 87.5vw;
     height: 30rem;
     border-radius: 0.75em;
     align-items: center;
@@ -879,14 +879,14 @@ form > input, select {
 }
 
 #thor {
-    border-radius: 1.25rem;
+    border-radius: 0.75rem;
 }
 
 #caracteristicas_pet {
     background-color: white;
     padding: 1rem 0rem 1rem 0rem;
     border-radius: 0.75rem;
-    width: 35rem;
+    width: 87.5vw;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 1rem;
