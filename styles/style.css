@@ -956,6 +956,7 @@ form > input, select {
     justify-content: center;
     margin: auto;
     align-items: end;
+    margin-bottom: 1rem;
 }
 
 #ligar_ong {
@@ -972,6 +973,39 @@ form > input, select {
     border: 1px solid var(--cor-principal);
 }
 
+#ligar_ong > img {
+    margin-right: 0.4rem;
+    padding-bottom: 0.15rem;
+}
+
 #quero_adotar:hover, #ligar_ong:hover {
     text-decoration: underline;
 } 
+
+#sobre_thor {
+    text-align: left;
+    background-color: white;
+    width: 87.5vw;
+    padding: 2rem 0rem 2rem 0rem;
+    margin: auto;
+}
+
+#descricao_thor > h3 {
+    margin: 0rem 0rem 1rem 1rem;
+}
+
+#adjetivos {
+    display: flex;
+    margin: 1rem 0rem 0rem 1rem;
+    gap: 0.5rem;
+}
+
+.adjetivo > p {
+    background-color: var(--cor_terciaria);
+    border-radius: 2rem;
+    width: 4.65rem;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+}
