@@ -988,6 +988,8 @@ form > input, select {
     width: 87.5vw;
     padding: 2rem 0rem 2rem 0rem;
     margin: auto;
+    border-radius: 0.75rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.322);
 }
 
 #descricao_thor > h3 {
