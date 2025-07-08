@@ -880,6 +880,7 @@ form > input, select {
 
 #thor {
     border-radius: 0.75rem;
+    width: 25rem;
     max-width: 80vw;
 }
 
