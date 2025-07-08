@@ -888,7 +888,7 @@ form > input, select {
     border-radius: 0.75rem;
     width: 35rem;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.322);
 }
@@ -902,6 +902,7 @@ form > input, select {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin-top: 1rem;
 }
 
 #disponibilidade {
@@ -931,8 +932,44 @@ form > input, select {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin: 2rem 0rem 1rem 0rem;
 }
 
 #idade_porte > div > h4, #sexo_vacina > div> h4 {
     font-weight: normal;
 }
+
+#adotar_contato {
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+#quero_adotar {
+    display: flex;
+    color: white;
+    font-size: larger;
+    background-color: var(--cor-principal);
+    width: 16rem;
+    border-radius: 0.5rem;
+    height: 2rem;
+    justify-content: center;
+    margin: auto;
+    align-items: end;
+}
+
+#ligar_ong {
+    display: flex;
+    color: var(--cor-principal);
+    font-size: larger;
+    background-color: white;
+    width: 16rem;
+    border-radius: 0.5rem;
+    height: 2rem;
+    justify-content: center;
+    margin: auto;
+    align-items: end;
+    border: 1px solid var(--cor-principal);
+}
+
+#quero_adotar:hover, #ligar_ong:hover {
+    text-decoration: underline;
+} 
