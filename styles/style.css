@@ -858,10 +858,6 @@ form > input, select {
 
 /* --------- ADOTE PETS --------- */
 
-#body_adote_pets {
-    background-color: #E5E7EB;
-}
-
 #main_adotepets {
     margin-top: 1rem;
 }
@@ -875,13 +871,13 @@ form > input, select {
     align-items: center;
     margin: auto;
     justify-content: center;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.322);
 }
 
 #thor {
     border-radius: 0.75rem;
-    width: 25rem;
-    max-width: 80vw;
+    width: 30rem;
+    max-width: 90vw;
+    margin-top: 2rem;
 }
 
 #caracteristicas_pet {
@@ -892,7 +888,6 @@ form > input, select {
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.322);
 }
 
 #caracteristicas_pet > div >  h3{
@@ -989,7 +984,6 @@ form > input, select {
     padding: 2rem 0rem 2rem 0rem;
     margin: auto;
     border-radius: 0.75rem;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.322);
 }
 
 #descricao_thor > h3 {
