@@ -893,6 +893,13 @@ form > input, select {
     font-weight: normal;
 }
 
+.dados_pet {
+    box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.185);
+    padding: 1rem 6rem 1rem 1rem;
+    border-radius: 1rem;
+    text-align: left;
+}
+
 #disponibilidade_local {
     display: flex;
     justify-content: center;
