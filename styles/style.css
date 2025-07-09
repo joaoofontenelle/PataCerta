@@ -1045,6 +1045,7 @@ form > input, select {
     border: 1px solid var(--cor-principal);
     padding: 1rem 8rem 2rem 1rem;
     border-radius: 1rem;
+    margin-bottom: 3rem;
 }
 
 #requisitos > div > p {
@@ -1053,4 +1054,15 @@ form > input, select {
 
 #requisitos > div > p > img {
     padding-right: 0.5rem;
+}
+
+#localizacao_ong {
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    height: 18rem;
+    margin: auto;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.329);
+    padding-top: 1rem;
+    border-radius: 1rem;
 }
