@@ -9,6 +9,8 @@
     --cor_terciaria: #E5E7EB;
     --cor_quartenaria: #FFEDD5;
     --cor_quinaria: #92400E;
+    --cor-senaria: #FFF2DB;
+    --cor-septenaria: #FDEDD5;
     --fonte-principal: 'Poppins', sans-serif;
 }
 
@@ -131,7 +133,7 @@ header > nav {
 
 
 #banner {
-    background-color: #FFF7ED;
+    background-color: var(--cor-septenaria);
     font-family: var(--fonte-principal);
     display: flex;
     justify-content: center;
@@ -1115,7 +1117,7 @@ form > input, select {
 /* --------- SEJA COLABORADOR --------- */
 
 #seja_colaborador_2 {
-    background-color: var(--cor_secundaria);
+    background-color: var(--cor-senaria);
     display: flex;
     flex-direction: column;
     border-radius: 0px;
