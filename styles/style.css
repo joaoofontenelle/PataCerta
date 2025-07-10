@@ -1110,10 +1110,16 @@ form > input, select {
     background-color: var(--cor-principal);
 }
 
+#seja_colaborador > div > img {
+    border-radius: 2rem;
+}
+
 #seja_colaborador > div > a:hover {
     text-decoration: underline;
 }
 
 #junte-se > p {
     padding: 2rem 0rem 2rem 0rem;
+    width: 64vw;
+    margin: auto;
 }
