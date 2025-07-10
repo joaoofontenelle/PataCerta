@@ -153,6 +153,12 @@ header > nav {
     padding-bottom: 0;
 }
 
+.adotar:hover {
+    text-decoration: underline;
+    transition: 0.5s ease-out;
+    transform: scale(1.05);
+}
+
 #conteudo {
     text-align: center;
 }
@@ -255,9 +261,12 @@ main > h3 {
 .conhecer {
     color: white;
     background-color: #f97316;
-    padding: 4px 6.6em 4px 6.6em;
+    padding: 4px 6.6rem 4px 6.6rem;
     border-radius: 0.3em;
-    text-decoration: none;
+}
+
+.conhecer:hover {
+    text-decoration: underline;
 }
 
 main > a {
@@ -268,6 +277,12 @@ main > a {
     padding: 0.5em 2em 0.5em 2em;
     width: 7em;
     text-decoration: none;
+}
+
+main > a:hover {
+    text-decoration: underline;
+    transition: 0.5s ease-out;
+    transform: scale(1.05);
 }
 
 #novoamigo {
@@ -285,6 +300,12 @@ main > a {
     padding: 0.9em 2em 0.9em 2em;
     border-radius: 2em;
     font-size: small;
+}
+
+#novoamigo > a:hover {
+    text-decoration: underline;
+    transition: 0.5s ease-out;
+    transform: scale(1.05);
 }
 
 #novoamigo > h3 {
@@ -856,6 +877,10 @@ form > input, select {
     border-radius: 3rem;
 }
 
+#adotar_pet:hover, #seja_colaborador:hover {
+    text-decoration: underline;
+}
+
 
 /* --------- ADOTE PETS --------- */
 
@@ -977,6 +1002,8 @@ form > input, select {
 
 #quero_adotar:hover, #ligar_ong:hover {
     text-decoration: underline;
+    transition: 0.5s ease-out;
+    transform: scale(1.05);
 } 
 
 #sobre_thor {
@@ -1084,7 +1111,7 @@ form > input, select {
 
 /* --------- SEJA COLABORADOR --------- */
 
-#seja_colaborador {
+#seja_colaborador_2 {
     background-color: var(--cor_secundaria);
     display: flex;
     flex-direction: column;
@@ -1096,7 +1123,7 @@ form > input, select {
     margin-bottom: 3rem;
 }
 
-#seja_colaborador > div > a {
+#seja_colaborador_2 > div > a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1110,12 +1137,14 @@ form > input, select {
     background-color: var(--cor-principal);
 }
 
-#seja_colaborador > div > img {
+#seja_colaborador_2 > div > img {
     border-radius: 2rem;
 }
 
-#seja_colaborador > div > a:hover {
+#seja_colaborador_2 > div > a:hover {
     text-decoration: underline;
+    transition: 0.5s ease-out;
+    transform: scale(1.05);
 }
 
 #junte-se > p {
