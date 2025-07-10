@@ -139,18 +139,22 @@ header > nav {
     flex-direction: column-reverse;
     height: 36.75rem;
     width: 100vw;
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 2rem 0rem 6.5rem 0rem;
+    gap: 2rem;
 }
 
 .adotar {
-    color: white;
-    background-color: rgb(255, 106, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
     border-radius: 2rem;
-    border: 8px solid rgb(255, 106, 0);
-    font-weight: 390;
-    font-size: small;
-    text-decoration: none;
-    padding-bottom: 0;
+    padding: 1rem;
+    margin: auto;
+    height: 0.7rem;
+    font-size: large;
+    color: white;
+    background-color: var(--cor-principal);
 }
 
 .adotar:hover {
@@ -164,8 +168,9 @@ header > nav {
 }
 
 #conteudo > p {
-    padding: 16px 0px 24px 0px;
-    font-size: small;
+    padding: 2rem 0rem 2rem 0rem;
+    width: 50vw;
+    margin: auto;
 }
 
 #conteudo > h2 {
@@ -174,9 +179,7 @@ header > nav {
 
 #ftbanner {
     border-radius: 2em;
-    width: 375px; 
-    height: 350px;
-    margin-top: 9px;
+    margin-top: 4.6rem;
 }
 
 main {
