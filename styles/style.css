@@ -859,10 +859,6 @@ form > input, select {
 
 /* --------- ADOTE PETS --------- */
 
-#main_adotepets {
-    margin-top: 1rem;
-}
-
 #carrossel_galeria {
     display: flex;
     background-color: white;
@@ -1083,4 +1079,41 @@ form > input, select {
     align-items: center;
     gap: 2rem;
     margin: 3rem 0rem 2rem 0rem;
+}
+
+
+/* --------- SEJA COLABORADOR --------- */
+
+#seja_colaborador {
+    background-color: var(--cor_secundaria);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    border: 0px;
+    color: black;
+    gap: 2rem;
+    padding: 2rem 0rem 2rem 0rem;
+    margin-bottom: 3rem;
+}
+
+#seja_colaborador > div > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: auto;
+    height: 0.7rem;
+    font-size: large;
+    color: white;
+    background-color: var(--cor-principal);
+}
+
+#seja_colaborador > div > a:hover {
+    text-decoration: underline;
+}
+
+#junte-se > p {
+    padding: 2rem 0rem 2rem 0rem;
 }
