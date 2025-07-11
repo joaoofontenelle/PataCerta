@@ -1201,7 +1201,7 @@ form > input, select {
 
 #bio_ong {
     background-color: var(--cor_secundaria);
-    padding-top: 4rem;
+    padding: 4rem 0rem 3rem 0rem;
 }
 
 #nome_avaliacao {
@@ -1256,4 +1256,27 @@ form > input, select {
 #contatos_1 > div > a:hover, #contatos_2 > div > a:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+#conteineres_estatisticos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.estatistica_ong {
+    background-color: var(--cor_principal);
+    height: 6rem;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+#estatistica_ong_1 {
+    margin-top: 2rem;
 }
