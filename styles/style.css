@@ -4,14 +4,14 @@
 @charset "UTF-8";
 
 :root {
-    --cor-principal: rgb(255, 106, 0);
+    --cor_principal: rgb(255, 106, 0);
     --cor_secundaria:#FFF7ED;
     --cor_terciaria: #E5E7EB;
     --cor_quartenaria: #FFEDD5;
     --cor_quinaria: #92400E;
-    --cor-senaria: #FFF2DB;
-    --cor-septenaria: #FDEDD5;
-    --fonte-principal: 'Poppins', sans-serif;
+    --cor_senaria: #FFF2DB;
+    --cor_septenaria: #FDEDD5;
+    --fonte_principal: 'Poppins', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -25,13 +25,13 @@ html, body {
 * {
     margin: 0px;
     padding: 0px;
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte_principal);
 }
 
 header {
     background-color: white;
     display: flex;
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte_principal);
     font-size: 8px;
     justify-content: space-between;
     padding: 1.7em 0px 3em 0px;
@@ -133,8 +133,8 @@ header > nav {
 
 
 #banner {
-    background-color: var(--cor-septenaria);
-    font-family: var(--fonte-principal);
+    background-color: var(--cor_septenaria);
+    font-family: var(--fonte_principal);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,7 +156,7 @@ header > nav {
     height: 0.7rem;
     font-size: large;
     color: white;
-    background-color: var(--cor-principal);
+    background-color: var(--cor_principal);
 }
 
 .adotar:hover {
@@ -185,7 +185,7 @@ header > nav {
 }
 
 main {
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte_principal);
     text-align: center;
 }
 
@@ -327,7 +327,7 @@ main > a:hover {
 footer {
     background-color: #1F2937;
     color: rgb(241, 243, 245);
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte_principal);
     text-align: center;
     max-width: 100%;
 }
@@ -807,7 +807,7 @@ form > input, select {
 }
 
 .estatisticas > h2 {
-    color: var(--cor-principal);
+    color: var(--cor_principal);
     padding-left: 1.25rem;
 }
 
@@ -869,15 +869,15 @@ form > input, select {
 }
 
 #adotar_pet {
-    background-color: var(--cor-principal);
+    background-color: var(--cor_principal);
     color: white;
     padding: 1rem;
     border-radius: 3rem;
 }
 
 #seja_colaborador {
-    color: var(--cor-principal);
-    border: 2.25px solid var(--cor-principal);
+    color: var(--cor_principal);
+    border: 2.25px solid var(--cor_principal);
     padding: 1rem;
     border-radius: 3rem;
 }
@@ -976,7 +976,7 @@ form > input, select {
     display: flex;
     color: white;
     font-size: larger;
-    background-color: var(--cor-principal);
+    background-color: var(--cor_principal);
     width: 16rem;
     border-radius: 0.5rem;
     height: 2rem;
@@ -988,7 +988,7 @@ form > input, select {
 
 #ligar_ong {
     display: flex;
-    color: var(--cor-principal);
+    color: var(--cor_principal);
     font-size: larger;
     background-color: white;
     width: 16rem;
@@ -997,7 +997,7 @@ form > input, select {
     justify-content: center;
     margin: auto;
     align-items: end;
-    border: 1px solid var(--cor-principal);
+    border: 1px solid var(--cor_principal);
 }
 
 #ligar_ong > img {
@@ -1077,7 +1077,7 @@ form > input, select {
     width: 16rem;
     margin: auto;
     background-color: var(--cor_quartenaria);
-    border: 1px solid var(--cor-principal);
+    border: 1px solid var(--cor_principal);
     padding: 1rem 8rem 2rem 1rem;
     border-radius: 1rem;
     margin-bottom: 3rem;
@@ -1117,7 +1117,7 @@ form > input, select {
 /* --------- SEJA COLABORADOR --------- */
 
 #seja_colaborador_2 {
-    background-color: var(--cor-senaria);
+    background-color: var(--cor_senaria);
     display: flex;
     flex-direction: column;
     border-radius: 0px;
@@ -1139,7 +1139,7 @@ form > input, select {
     height: 0.7rem;
     font-size: large;
     color: white;
-    background-color: var(--cor-principal);
+    background-color: var(--cor_principal);
 }
 
 #seja_colaborador_2 > div > img {
@@ -1166,7 +1166,7 @@ form > input, select {
 }
 
 .numeracao {
-    background-color: var(--cor-principal);
+    background-color: var(--cor_principal);
     width: 1rem;
     height: 1rem;
     margin: auto;
@@ -1180,4 +1180,37 @@ form > input, select {
 
 .espacamento {
     margin-top: 1rem;
+}
+
+
+/* --------- DETALHES ONG --------- */
+
+#imagens_ong {
+    position: relative;
+}
+
+#logo_ong {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 3rem;
+    width: 5rem; 
+    border: 3px solid white;
+}
+
+#bio_ong {
+    background-color: var(--cor_secundaria);
+    padding-top: 4rem;
+}
+
+#nome_avaliacao {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 2rem;   
+}
+
+#nome_avaliacao > div > p > img {
+    margin-right: 0.3rem;
 }
