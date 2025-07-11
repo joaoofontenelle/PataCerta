@@ -1275,6 +1275,7 @@ form > input, select {
     color: white;
     margin: auto;
     border-radius: 1rem;
+    gap: 0.3rem;
 }
 
 #estatistica_ong_1 {
