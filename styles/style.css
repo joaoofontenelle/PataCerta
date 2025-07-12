@@ -1200,7 +1200,7 @@ form > input, select {
 }
 
 #bio_ong {
-    background-color: var(--cor_secundaria);
+    background-color: white;
     padding: 4rem 0rem 2rem 0rem;
 }
 
@@ -1209,7 +1209,7 @@ form > input, select {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    gap: 2rem;   
+    gap: 1rem;   
 }
 
 #nome_avaliacao > div > h2 {
@@ -1242,31 +1242,12 @@ form > input, select {
     padding-right: 0.3rem;
 }
 
-#contatos {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-#contatos_1, #contatos_2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#contatos_1 > div > a, #contatos_2 > div > a {
-    color: var(--cor_principal);
-}
-
-#contatos_1 > div > a:hover, #contatos_2 > div > a:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 #conteineres_estatisticos {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    background-color: var(--cor_secundaria);
+    margin-bottom: 2rem;
 }
 
 .estatistica_ong {
@@ -1285,4 +1266,14 @@ form > input, select {
 
 #estatistica_ong_1 {
     margin-top: 2rem;
+}
+
+#info_contatos {
+    background-color: var(--cor_principal);
+    width: 15rem;
+    height: 2.5rem;
+    border: 0px;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bolder;
 }
