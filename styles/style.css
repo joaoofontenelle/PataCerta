@@ -128,6 +128,70 @@ header > nav {
     padding: 16px 0px 0px 6px;
 }
 
+footer {
+    background-color: #1F2937;
+    color: rgb(241, 243, 245);
+    font-family: var(--fonte_principal);
+    text-align: center;
+    max-width: 100%;
+}
+
+.logorodape {
+    padding-right: 6px;
+}
+
+.colunasrodape {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding: 2rem 0rem 2rem 0rem;
+    font-size: large;
+}
+
+#coluna1, #coluna3 {
+    margin-bottom: 4em;
+}
+
+#coluna1 {
+    width: 10rem;
+}
+
+#coluna3 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: column;
+}
+
+.colunas > h3 {
+    padding-bottom: 8px;
+}
+
+.colunas > p, a {
+    color: #9CA3AF;
+    text-decoration: none;
+}
+
+.colunas > p, a {
+    padding: 0px 0px 14px 0px;
+}
+
+.colunas > a:hover {
+    color: #f97316;
+    text-decoration: underline;
+}
+
+.colunas > a > img {
+    padding-right: 6px;
+}
+
+.colunas > p > img {
+    padding-right: 6px;
+}
+
 
 /* --------- INDEX --------- */
 
@@ -230,6 +294,11 @@ main > h3 {
     background-color: white;
 }
 
+.pets:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-out;    
+}
+
 .pets > h4, p {
     padding: 0px 0px 0px 1em;
 }
@@ -322,70 +391,6 @@ main > a:hover {
     font-size: small;
     color: rgba(255, 255, 255, 0.945);
     font-weight: 100;
-}
-
-footer {
-    background-color: #1F2937;
-    color: rgb(241, 243, 245);
-    font-family: var(--fonte_principal);
-    text-align: center;
-    max-width: 100%;
-}
-
-.logorodape {
-    padding-right: 6px;
-}
-
-.colunasrodape {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 100%;
-    padding: 2rem 0rem 2rem 0rem;
-    font-size: large;
-}
-
-#coluna1, #coluna3 {
-    margin-bottom: 4em;
-}
-
-#coluna1 {
-    width: 10rem;
-}
-
-#coluna3 {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.colunas {
-    display: flex;
-    flex-direction: column;
-}
-
-.colunas > h3 {
-    padding-bottom: 8px;
-}
-
-.colunas > p, a {
-    color: #9CA3AF;
-    text-decoration: none;
-}
-
-.colunas > p, a {
-    padding: 0px 0px 14px 0px;
-}
-
-.colunas > a:hover {
-    color: #f97316;
-    text-decoration: underline;
-}
-
-.colunas > a > img {
-    padding-right: 6px;
-}
-
-.colunas > p > img {
-    padding-right: 6px;
 }
 
 #iconesredes {
@@ -1247,7 +1252,7 @@ form > input, select {
     flex-direction: column;
     gap: 2rem;
     background-color: var(--cor_secundaria);
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .estatistica_ong {
@@ -1262,6 +1267,11 @@ form > input, select {
     margin: auto;
     border-radius: 1rem;
     gap: 0.3rem;
+}
+
+.estatistica_ong:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
 }
 
 #estatistica_ong_1 {
@@ -1287,4 +1297,42 @@ form > input, select {
     cursor: pointer;
     transform: scale(1.1);
     transition: 0.5s ease-out;
+}
+
+#disponiveis_3 {
+    padding: 2.5em 0px 0em 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0rem 2rem 0rem;
+}
+
+#galeria {
+    background-color: var(--cor_secundaria);
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+#momentos {
+    width: 90%;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
+    padding: 2rem 0rem 2rem 0rem;
+    gap: 2rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
+}
+
+#momentos > img {
+    margin: auto;
+    border-radius: 2rem;
+}
+
+#momentos > img:hover {
+    transform: scale(0.975);
+    transition: 0.2s ease-out;
 }
