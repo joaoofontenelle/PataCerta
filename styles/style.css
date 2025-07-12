@@ -1206,9 +1206,14 @@ form > input, select {
 
 #nome_avaliacao {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center; 
     gap: 2rem;   
+}
+
+#nome_avaliacao > div > h2 {
+    font-size: xx-large;
 }
 
 #nome_avaliacao > div > p > img {
@@ -1245,7 +1250,7 @@ form > input, select {
 
 #contatos_1, #contatos_2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
