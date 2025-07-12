@@ -1330,6 +1330,7 @@ form > input, select {
 #momentos > img {
     margin: auto;
     border-radius: 2rem;
+    max-width: 70vw;
 }
 
 #momentos > img:hover {
