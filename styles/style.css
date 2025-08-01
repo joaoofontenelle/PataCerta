@@ -1190,6 +1190,7 @@ form > input, select {
 
 /* --------- DETALHES ONG --------- */
 
+
 #imagens_ong {
     position: relative;
 }
@@ -1336,4 +1337,12 @@ form > input, select {
 #momentos > img:hover {
     transform: scale(0.975);
     transition: 0.2s ease-out;
+}
+
+
+/* --------- BLOG --------- */
+
+
+#titulo_blog {
+    background-color: var(--cor_secundaria);
 }
