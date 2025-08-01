@@ -1344,5 +1344,38 @@ form > input, select {
 
 
 #titulo_blog {
+    padding-bottom: 2rem;
+}
+
+#pesquisar_artigos > h1 {
+    font-size: 2.5rem;
+    padding-top: 2rem;
+}
+
+#pesquisar_artigos > p {
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+#titulo_blog {
     background-color: var(--cor_secundaria);
+}
+
+#form_blog > input {
+    border-radius: 4rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 20rem;
+    padding-left: 1.25rem;
+}
+
+#form_blog > button {
+    background-color: var(--cor_principal);
+    border-radius: 4rem;
+    border: 0px;
+    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+}
+
+#form_blog > button:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+    cursor: pointer;
 }
