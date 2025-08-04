@@ -1345,6 +1345,7 @@ form > input, select {
 
 #titulo_blog {
     padding-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 #pesquisar_artigos > h1 {
@@ -1354,6 +1355,8 @@ form > input, select {
 
 #pesquisar_artigos > p {
     padding: 2rem 0rem 2rem 0rem;
+    width: 23rem;
+    margin: auto;
 }
 
 #titulo_blog {
@@ -1379,3 +1382,35 @@ form > input, select {
     transition: 0.5s ease-out;
     cursor: pointer;
 }
+
+#conteiner_blog {
+    border-radius: 1rem;
+    max-width: 85%;
+    margin: auto;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.226);
+}
+
+#p_destaque {
+    position: absolute;
+    top: 41.75%;
+    left: 18%;
+    transform: translate(-50%, -50%); 
+    background-color: var(--cor_principal);
+    z-index: 1;
+    padding: 0.25rem 0.8rem 0.25rem 0rem;
+    color: white;
+    border-radius: 1rem;
+    font-size: small;
+}
+
+#banner_box_blog > img {
+    width: 100%;
+}
+
+#texto_box_blog > h2 {
+    font-size: larger;
+} 
+
+#texto_box_blog > p {
+    font-size: small;
+} 
