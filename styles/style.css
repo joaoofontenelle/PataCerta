@@ -1386,6 +1386,7 @@ form > input, select {
 #conteiner_blog {
     border-radius: 1rem;
     max-width: 85%;
+    width: 30rem;
     margin: auto;
     box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.226);
 }
@@ -1414,3 +1415,8 @@ form > input, select {
 #texto_box_blog > p {
     font-size: small;
 } 
+
+#ler_mais {
+    display: flex;
+    justify-content: space-between;
+}
