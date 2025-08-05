@@ -1391,11 +1391,15 @@ form > input, select {
     box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.226);
 }
 
+#banner_box_blog {
+    position: relative; 
+    display: inline-block;
+}
+
 #p_destaque {
     position: absolute;
-    top: 41.75%;
-    left: 18%;
-    transform: translate(-50%, -50%); 
+    top: 10px;
+    left: 10px;
     background-color: var(--cor_principal);
     z-index: 1;
     padding: 0.25rem 0.8rem 0.25rem 0rem;
@@ -1403,6 +1407,7 @@ form > input, select {
     border-radius: 1rem;
     font-size: small;
 }
+
 
 #banner_box_blog > img {
     width: 100%;
