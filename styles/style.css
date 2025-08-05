@@ -1346,21 +1346,18 @@ form > input, select {
 #titulo_blog {
     padding-bottom: 2rem;
     margin-bottom: 3rem;
+    background-color: var(--cor_secundaria);
 }
 
-#pesquisar_artigos > h1 {
+#titulo_blog > h1 {
     font-size: 2.5rem;
     padding-top: 2rem;
 }
 
-#pesquisar_artigos > p {
+#titulo_blog > p {
     padding: 2rem 0rem 2rem 0rem;
     width: 23rem;
     margin: auto;
-}
-
-#titulo_blog {
-    background-color: var(--cor_secundaria);
 }
 
 #form_blog > input {
@@ -1375,6 +1372,7 @@ form > input, select {
     background-color: var(--cor_principal);
     border-radius: 4rem;
     border: 0px;
+    margin-left: 0.5rem;
     padding: 0.7rem 0.5rem 0.7rem 0.5rem;
 }
 
@@ -1470,4 +1468,119 @@ form > input, select {
 #dados_dona > p {
     padding: 0.25rem 0rem 0.25rem 0.25rem;
     text-align: justify;
+}
+
+#p_comportamento {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    background-color: #7c3aed;
+    color: #ede9fe;
+    z-index: 1;
+    padding: 0.25rem 0.8rem 0.25rem 0rem;
+    border-radius: 1rem;
+    font-size: small;
+}
+
+#p_saude {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    background-color: #dbeafe;
+    color: #1453db;
+    z-index: 1;
+    padding: 0.25rem 0.8rem 0.25rem 0rem;
+    border-radius: 1rem;
+    font-size: small;
+}
+
+#be_inside {
+    padding-bottom: 2rem;
+    background-color: var(--cor_principal);
+    margin-top: 3rem;
+}
+
+#be_inside > h1 {
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 2rem;
+}
+
+#be_inside > p {
+    padding: 2rem 0rem 2rem 0rem;
+    width: 23rem;
+    color: white;
+    margin: auto;
+}
+
+#melhor_email_pesquisa > input {
+    border-radius: 4rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 16rem;
+    padding: 0rem 1rem 0rem 1.25rem;
+    height: 3rem;
+}
+
+#melhor_email_pesquisa > button {
+    background-color: black;
+    color: white;
+    border-radius: 4rem;
+    border: 0px;
+    margin-left: 0.5rem;
+    padding: 0.7rem 0.75rem 0.7rem 0rem;
+}
+
+#melhor_email_pesquisa > button:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+#load_more {
+    background-color: var(--cor_principal);
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 3rem;
+}
+
+#load_more:hover {
+    transition: 0.75s ease-out;
+    background-color: black;
+    color: var(--cor_principal);
+}
+
+#p_treinamento {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    background-color: #d1fae5;
+    z-index: 1;
+    padding: 0.25rem 0.8rem 0.25rem 0rem;
+    color: #059669;
+    border-radius: 1rem;
+    font-size: small;
+}
+
+#p_adocao {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    background-color: #fee2e2;
+    z-index: 1;
+    padding: 0.25rem 0.8rem 0.25rem 0rem;
+    color: #dc2626;
+    border-radius: 1rem;
+    font-size: small;
+}
+
+#p_nutricao {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    background-color: #fef3c7;
+    z-index: 1;
+    padding: 0.25rem 0.8rem 0.25rem 0rem;
+    color: #d97706;
+    border-radius: 1rem;
+    font-size: small;
 }
