@@ -1366,8 +1366,9 @@ form > input, select {
 #form_blog > input {
     border-radius: 4rem;
     border: 1px solid rgba(0, 0, 0, 0);
-    width: 20rem;
-    padding-left: 1.25rem;
+    width: 24.5rem;
+    padding: 0rem 1rem 0rem 1.25rem;
+    height: 3rem;
 }
 
 #form_blog > button {
@@ -1424,11 +1425,15 @@ form > input, select {
 
 #texto_box_blog > h2 {
     font-size: larger;
+    width: 20rem;
+    margin: auto;
     padding-top: 1rem;
 } 
 
 #texto_box_blog > p {
     font-size: small;
+    width: 22rem;
+    margin: auto;
     padding: 0.5rem 0rem 0.5rem 0rem;
 } 
 
