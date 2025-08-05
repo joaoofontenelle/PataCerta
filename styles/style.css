@@ -1391,6 +1391,11 @@ form > input, select {
     box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.226);
 }
 
+#conteiner_blog:hover {
+    transform: scale(1.02);
+    transition: 0.2s ease-out;
+}
+
 #banner_box_blog {
     position: relative;
 }
@@ -1436,15 +1441,21 @@ form > input, select {
     padding-top: 1rem;
 }
 
-#div_ler_mais > p {
+#div_ler_mais > a {
     padding-right: 0.5rem;
-}
-
-
-
-#div_ler_mais {
+    color: var(--cor_principal);
     display: flex;
     align-items: center;
+    padding-top: 0.75rem;
+}
+
+#div_ler_mais > a:hover {
+    transform: scale(1.090);
+    transition: 0.1s ease-out;
+}
+
+#div_ler_mais > a > img {
+    padding: 0.5rem 0rem 0.5rem 0.4rem;
 }
 
 #dados_dona {
