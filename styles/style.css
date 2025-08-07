@@ -1079,7 +1079,8 @@ form > input, select {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    width: 16rem;
+    width: 10.5rem;
+    max-width: 90%;
     margin: auto;
     background-color: var(--cor_quartenaria);
     border: 1px solid var(--cor_principal);
@@ -1090,6 +1091,7 @@ form > input, select {
 
 #requisitos > div > p {
     color: var(--cor_quinaria);
+    padding: 0.25rem 0rem 0.25rem 0rem;
 }
 
 #requisitos > div > p > img {
