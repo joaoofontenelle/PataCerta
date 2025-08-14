@@ -1587,3 +1587,23 @@ form > input, select {
     border-radius: 1rem;
     font-size: small;
 }
+
+
+/* --------- BLOG --------- */
+
+
+#body_cadastro {
+    background-color: var(--cor_terciaria);
+}
+
+#main_cadastro {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+#conteiner_cadastro {
+    width: 27.5rem;
+    max-width: 90%;
+    margin: auto;
+    padding: 3rem 0rem 3rem 0rem;
+    background-color: white;
+}
