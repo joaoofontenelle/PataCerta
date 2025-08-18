@@ -1606,4 +1606,26 @@ form > input, select {
     margin: auto;
     padding: 3rem 0rem 3rem 0rem;
     background-color: white;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.226);
+}
+
+#criar_conta {
+    padding: 1rem 0rem 4rem 0rem;
+    width: 12rem;
+    margin: auto;
+}
+
+#conteiner_cadastro > form > div > input {
+    margin: 1rem 0rem 3rem 0rem;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+#informacoes_pessoais, #info_pessoal_endereco {
+    padding-bottom: 1rem;
+    font-size: x-large;
 }

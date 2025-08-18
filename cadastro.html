@@ -28,17 +28,94 @@
 
     <main id="main_cadastro">
         <section id="conteiner_cadastro">
-            <div>
-                <h1>Criar Conta</h1>
-                <p>Junte-se à comunidade PataCerta e encontre seu novo melhor amigo</p>
-                <h3>Informações Pessoais</h3>
-            </div>
-        </section>
+            <form action="#">
+                <div>
+                    <h1>Criar Conta</h1>
+                    <p id="criar_conta">Junte-se à comunidade PataCerta e encontre seu novo melhor amigo</p>
+                    <legend id="informacoes_pessoais">Informações Pessoais</legend>
+                </div>
 
-        <form action="#">
-            <label for="inome"></label>
-            <input type="text" placeholder="">
-        </form>
+                <div>
+                    <p>Nome Completo</p>
+                    <label for="inome"></label>
+                    <input type="text" name="nome_completo" id="i" placeholder="Digite seu nome completo">
+                </div>
+
+                <div>
+                    <p>CPF</p>
+                    <label for="icpf"></label>
+                    <input type="text" name="cpf" id="i" placeholder="000.000.000-00">
+                </div>
+
+                <div>
+                    <p>Nascimento</p>
+                    <label for="inascimento"></label>
+                    <input type="date" name="nascimento" id="i" placeholder="DD/MM/AAAA">
+                </div>
+
+                <div>
+                    <p>Telefone</p>
+                    <label for="itelefone"></label>
+                    <input type="tel" name="telefone" id="i" placeholder="(00) 00000-0000">
+                </div>
+
+                <div>
+                    <p>E-mail</p>
+                    <label for="iemail"></label>
+                    <input type="email" name="email" id="i" placeholder="seu@email.com">
+                </div>
+
+                <div>
+                    <legend id="info_pessoal_endereco">Endereço</legend>
+                </div>
+
+                <div>
+                    <p>CEP</p>
+                    <label for="icep"></label>
+                    <input type="number" name="cep" id="i" placeholder="00000-000" autocomplete="postal-code">
+                </div>
+
+                <div>
+                    <p>Rua</p>
+                    <label for="inome"></label>
+                    <input type="text" name="rua" id="i" placeholder="Av. Dr. Pinto" autocomplete="street-address">
+                </div>
+
+                <div>
+                    <p>Número</p>
+                    <label for="inumero"></label>
+                    <input type="number" name="numero" id="i" placeholder="1234" autocomplete="address-line1">
+                </div>
+
+                <div>
+                    <p>Complemento</p>
+                    <label for="icomplemento"></label>
+                    <input type="text" name="complemento" id="i" placeholder="1234" autocomplete="address-line2">
+                </div>
+
+                <div>
+                    <p>Estado</p>
+                    <label for="iestado"></label>
+                    <input type="" name="estado" id="i" placeholder="Selecione o estado" autocomplete="address-level1">
+                </div>
+                
+                <div>
+                    <p>Cidade</p>
+                    <label for="inome"></label>
+                    <input type="text" name="cidade" id="i" placeholder="Sua cidade" autocomplete="address-level2">
+                </div>
+
+                <div>
+                    <p>Bairro</p>
+                    <label for="inome"></label>
+                    <input type="text" name="bairro" id="i" placeholder="Seu bairro" autocomplete="address-level2">
+                </div>
+
+                <div>
+                    <input type="submit" value="PROSSEGUIR">
+                </div>
+            </form>
+        </section>
     </main>
 
     <footer>
