@@ -1618,7 +1618,8 @@ form > input, select {
 
 #conteiner_cadastro > form > div > input {
     margin: 1rem 0rem 3rem 0rem;
-    width: 15rem;
+    width: 20rem;
+    max-width: 80%;
     height: 2.5rem;
     border-radius: 0.5rem;
     padding-left: 1rem;
@@ -1629,3 +1630,20 @@ form > input, select {
     padding-bottom: 1rem;
     font-size: x-large;
 }
+
+#prosseguir {
+    color: white;
+    background-color: var(--cor_principal);
+    text-align: center;
+}
+
+#prosseguir:hover {
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    transform: scale(0.95);
+}
+
+
+/* --------- BLOG --------- */
+
+
