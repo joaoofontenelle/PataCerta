@@ -1079,7 +1079,7 @@ form > input, select {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    width: 10.5rem;
+    width: 11rem;
     max-width: 90%;
     margin: auto;
     background-color: var(--cor_quartenaria);
@@ -1092,6 +1092,12 @@ form > input, select {
 #requisitos > div > p {
     color: var(--cor_quinaria);
     padding: 0.25rem 0rem 0.25rem 0rem;
+    width: 16rem;
+}
+
+#requisitos > h3 {
+    padding: 0.25rem 0rem 2rem 0rem;
+    width: 14rem;
 }
 
 #requisitos > div > p > img {
@@ -1589,7 +1595,7 @@ form > input, select {
 }
 
 
-/* --------- BLOG --------- */
+/* --------- Cadastro --------- */
 
 
 #body_cadastro {
@@ -1644,6 +1650,6 @@ form > input, select {
 }
 
 
-/* --------- BLOG --------- */
+/* --------- Defina Senha --------- */
 
 

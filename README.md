@@ -1,5 +1,5 @@
 # TCCPataCerta
-TCC "Pata Certa", EM PROL DOS ANIMAIS (em desenvolvimento...)
+TCC "Pata Certa", EM PROL DOS ANIMAIS (em desenvolvimento...).
 
 <ul>
     <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/index.html" target="_blank">Página Principal</a></li>
@@ -9,4 +9,6 @@ TCC "Pata Certa", EM PROL DOS ANIMAIS (em desenvolvimento...)
     <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/sejacolaborador.html" target="_blank">Página "Seja Colaborador"</a></li>
     <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/detalhesong.html" target="_blank">Página "Detalhes ONG"</a></li>
     <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/blog.html" target="_blank">Página "Blog"</a></li>
+    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/cadastro.html" target="_blank">Página "Cadastro"</a></li>
+    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/definasenha.html" target="_blank">Página "Defina Senha"</a></li>
 </ul>
