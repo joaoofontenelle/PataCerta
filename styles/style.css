@@ -1653,3 +1653,13 @@ form > input, select {
 /* --------- Defina Senha --------- */
 
 
+#main_dfn_senha {
+    background-color: var(--cor_quartenaria);
+    padding: 6rem 0rem 6rem 0rem;
+}
+
+#container_dfn_senha {
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+}
