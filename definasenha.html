@@ -31,19 +31,45 @@
             <div>
                 <img src="" alt="">
                 <h3>Defina sua senha</h3>
-                <p>Para finalizar seu cadastro, crie uma senha segura.</p>
+                <p>Para finalizar seu cadastro, crie uma senha <br> segura.</p>
             </div>
 
             <form action="">
                 <div>
+                    <p><strong>Nova Senha</strong></p>
                     <label for="isenha"></label>
                     <input type="password" autocomplete="new-password" id="isenha" placeholder="Digite sua senha">
                 </div>
 
                 <div>
+                    <p><strong>Confirme a Senha</strong></p>
                     <label for="inovamente"></label>
                     <input type="password" autocomplete="new-password" id="inovamente" placeholder="Digite novamente sua senha">
                 </div>
+            </form>
+
+            <section id="requisitos_senha">
+                <p><strong>Requisitos de senha:</strong></p>
+                <img src="assets/icone-confimacao-black.svg" alt="ícone de validação">
+                    <p>Mínimo de 8 caracteres</p>
+                </img>
+                <img src="assets/icone-confimacao-black.svg" alt="">
+                    <p>Pelos menos uma letra maiúscula</p>
+                </img>
+                <img src="assets/icone-confimacao-black.svg" alt="">
+                    <p>Pelo menos um número</p>
+                </img>
+                <img src="assets/icone-confimacao-black.svg" alt="">
+                    <p>Pelo menos um caractere especial</p>
+                </img>
+            </section>
+
+            <form action="#">
+                <p>
+                    <label for="ili_e_aceito"></label>
+                    <input type="checkbox">
+                    Li e aceito os <a href="#">Termos de Uso</a> e a <br> <a href="#">Política de Privacidade</a> da PataCerta.
+                </p>
             </form>
         </section>
     </main>

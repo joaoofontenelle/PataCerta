@@ -10,7 +10,8 @@
     --cor_quartenaria: #FFEDD5;
     --cor_quinaria: #92400E;
     --cor_senaria: #FFF2DB;
-    --cor_septenaria: #FDEDD5;
+    --cor_setenaria: #FDEDD5;
+    --cor_octonaria: #F9FAFB;
     --fonte_principal: 'Poppins', sans-serif;
 }
 
@@ -197,7 +198,7 @@ footer {
 
 
 #banner {
-    background-color: var(--cor_septenaria);
+    background-color: var(--cor_setenaria);
     font-family: var(--fonte_principal);
     display: flex;
     justify-content: center;
@@ -1662,4 +1663,16 @@ form > input, select {
     background-color: white;
     max-width: 80%;
     margin: auto;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#requisitos_senha {
+    background-color: var(--cor_octonaria);
+    max-width: 90%;
+    width: 22rem;
+    margin: auto;
+    text-align: start;
 }
