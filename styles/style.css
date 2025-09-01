@@ -1681,8 +1681,35 @@ form > input, select {
     text-align: start;
 }
 
+#insercao_senha_nova > div > input {
+    height: 2.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.11);
+    width: 21rem;
+    border-radius: 0.5rem;
+    padding-left: 0.75rem;
+}
+
+#insercao_senha_nova > div > p {
+    padding: 0.5rem 0rem 0.5rem 1.75rem;
+    text-align: start;
+}
+
 #requisitos_senha > img {
     display: flex;
+}
+
+#caixa_de_marcacao:hover {
+    cursor: pointer;
+}
+
+.li_e_aceito {
+    color: var(--cor_principal);
+}
+
+#criar_senha:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1s ease-out;
 }
 
 #criar_senha {
