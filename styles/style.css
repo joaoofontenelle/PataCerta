@@ -1662,11 +1662,15 @@ form > input, select {
 #container_dfn_senha {
     background-color: white;
     max-width: 80%;
+    width: 30rem;
     margin: auto;
     height: 30rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.212);
+    padding: 1rem 0rem 2rem 0rem;
 }
 
 #requisitos_senha {
@@ -1675,4 +1679,20 @@ form > input, select {
     width: 22rem;
     margin: auto;
     text-align: start;
+}
+
+#requisitos_senha > img {
+    display: flex;
+}
+
+#criar_senha {
+    background-color: var(--cor_principal);
+    border: 0px;
+    height: 2.5rem;
+    width: 16.5rem;
+    max-width: 85%;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: medium;
+    margin-top: 1rem;
 }
