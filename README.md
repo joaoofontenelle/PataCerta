@@ -12,7 +12,6 @@ O objetivo principal é criar uma plataforma digital que conecte **ONGs, colabor
 - Criar uma **plataforma intuitiva** para adoção de animais.  
 - Oferecer espaço para **ONGs se cadastrarem e divulgarem seus trabalhos**.  
 - Possibilitar que pessoas possam **adotar pets de forma responsável**.  
-- Incentivar **colaborações financeiras e voluntariado**.  
 - Educar a sociedade por meio de **conteúdo informativo e blog educativo** sobre cuidados com pets.  
 
 ---
