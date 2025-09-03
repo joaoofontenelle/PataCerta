@@ -65,7 +65,7 @@ O projeto está sendo desenvolvido em **HTML, CSS e JavaScript**, hospedado via 
 
 ## 👨‍💻 Autores  
 
-Projeto desenvolvido por **João Victório Dos Santos Fontenelle** e equipe, como parte do TCC do curso Técnico em Desenvolvimento de Sistemas.  
+Projeto desenvolvido por **João Victório Dos Santos Fontenelle**, **Douglas Rodrigues Dos Santos**, **Eduarda de Barros Correia** e **Gabriel Ribeiro Miguel**, como parte do TCC do curso Técnico em Desenvolvimento de Sistemas.  
 
 ---
 
