@@ -1,65 +1,65 @@
-# 🐾 TCC Pata Certa  
+# 🐾 Pata Certa – Capstone Project  
 
-**TCC "Pata Certa" – Em prol dos animais (em desenvolvimento...)**
+**Capstone Project "Pata Certa" – For the Pets (in development...)**
 
-O **Pata Certa** é um projeto de Trabalho de Conclusão de Curso (TCC) com foco na **proteção, acolhimento e adoção responsável de animais**.  
-O objetivo principal é criar uma plataforma digital que conecte **ONGs, colaboradores e adotantes**, incentivando o cuidado com animais em situação de abandono e oferecendo suporte para fortalecer iniciativas de proteção animal.  
-
----
-
-## 🚀 Objetivos do Projeto  
-
-- Criar uma **plataforma intuitiva** para adoção de animais.  
-- Oferecer espaço para **ONGs se cadastrarem e divulgarem seus trabalhos**.  
-- Possibilitar que pessoas possam **adotar pets de forma responsável**.  
-- Educar a sociedade por meio de **conteúdo informativo e blog educativo** sobre cuidados com pets.  
+**Pata Certa** is a capstone project focused on **animal protection, shelter, and responsible adoption**.  
+Its main goal is to create a digital platform that connects **NGOs, volunteers, and adopters**, encouraging the care of abandoned animals while supporting initiatives that strengthen animal protection efforts.  
 
 ---
 
-## 📑 Estrutura do Site  
+## 🚀 Project Goals  
 
-O projeto está sendo desenvolvido em **HTML, CSS e JavaScript**, hospedado via **GitHub Pages**.  
+- Build an **intuitive platform** for animal adoption.  
+- Provide space for **NGOs to register and showcase their work**.  
+- Enable people to **adopt pets responsibly**.  
+- Educate society through **informative content and an educational blog** on pet care.  
 
-🔗 Acesse abaixo as páginas já disponíveis:  
+---
 
-- 🌐 [Página Principal](https://joaoofontenelle.github.io/TCCPataCerta/index.html)  
-- 📞 [Suporte](https://joaoofontenelle.github.io/TCCPataCerta/suporte.html)  
-- 👥 [Sobre Nós](https://joaoofontenelle.github.io/TCCPataCerta/sobrenos.html)  
-- 🐶 [Adote Pets](https://joaoofontenelle.github.io/TCCPataCerta/adotepets.html)  
-- 🤝 [Seja Colaborador](https://joaoofontenelle.github.io/TCCPataCerta/sejacolaborador.html)  
-- 🏢 [Detalhes ONG](https://joaoofontenelle.github.io/TCCPataCerta/detalhesong.html)  
+## 📑 Website Structure  
+
+The project is being developed using **HTML, CSS, and JavaScript**, hosted on **GitHub Pages**.  
+
+🔗 Access the pages already available:  
+
+- 🌐 [Home Page](https://joaoofontenelle.github.io/TCCPataCerta/index.html)  
+- 📞 [Support](https://joaoofontenelle.github.io/TCCPataCerta/suporte.html)  
+- 👥 [About Us](https://joaoofontenelle.github.io/TCCPataCerta/sobrenos.html)  
+- 🐶 [Adopt Pets](https://joaoofontenelle.github.io/TCCPataCerta/adotepets.html)  
+- 🤝 [Become a Contributor](https://joaoofontenelle.github.io/TCCPataCerta/sejacolaborador.html)  
+- 🏢 [NGO Details](https://joaoofontenelle.github.io/TCCPataCerta/detalhesong.html)  
 - 📰 [Blog](https://joaoofontenelle.github.io/TCCPataCerta/blog.html)  
-- 📝 [Cadastro](https://joaoofontenelle.github.io/TCCPataCerta/cadastro.html)  
-- 🔑 [Defina Senha](https://joaoofontenelle.github.io/TCCPataCerta/definasenha.html)  
+- 📝 [Sign Up](https://joaoofontenelle.github.io/TCCPataCerta/cadastro.html)  
+- 🔑 [Set Password](https://joaoofontenelle.github.io/TCCPataCerta/definasenha.html)  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas  
+## 🛠️ Technologies Used  
 
-- **HTML5** → Estrutura das páginas  
-- **CSS3** → Estilização e responsividade  
-- **JavaScript** → Interatividade (em desenvolvimento)  
-- **GitHub Pages** → Hospedagem do projeto  
-
----
-
-## 📌 Público-Alvo  
-
-- Pessoas interessadas em **adotar pets**.  
-- ONGs e protetores independentes que desejam **divulgar animais para adoção**.  
-- Colaboradores que queiram **apoiar voluntariamente** a causa.  
-- Sociedade em geral, buscando **educação e conscientização** sobre os cuidados com animais.  
+- **HTML5** → Page structure  
+- **CSS3** → Styling and responsiveness  
+- **JavaScript** → Interactivity (in development)  
+- **GitHub Pages** → Project hosting  
 
 ---
 
-## 👨‍💻 Autores  
+## 📌 Target Audience  
 
-Projeto desenvolvido por **João Victório Dos Santos Fontenelle**, **Douglas Rodrigues Dos Santos**, **Eduarda de Barros Correia** e **Gabriel Ribeiro Miguel**, como parte do TCC do curso Técnico em Desenvolvimento de Sistemas.  
+- People interested in **adopting pets**.  
+- NGOs and independent rescuers who want to **promote animals for adoption**.  
+- Contributors willing to **support the cause voluntarily**.  
+- General society, seeking **education and awareness** on animal care.  
 
 ---
 
-## 📜 Licença  
+## 👨‍💻 Authors  
 
-Este projeto está sob a licença **MIT**. Você pode utilizá-lo, modificar e contribuir, desde que mantenha os devidos créditos.  
+Project developed by **João Victório Dos Santos Fontenelle**, **Douglas Rodrigues Dos Santos**, **Eduarda de Barros Correia**, and **Gabriel Ribeiro Miguel**, as part of the capstone project for the Technical Course in Systems Development.  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License**. You are free to use, modify, and contribute as long as proper credit is maintained.  
 
 ---
