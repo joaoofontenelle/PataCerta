@@ -1,14 +1,76 @@
-# TCCPataCerta
-TCC "Pata Certa", EM PROL DOS ANIMAIS (em desenvolvimento...).
+# 🐾 TCC Pata Certa  
 
-<ul>
-    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/index.html" target="_blank">Página Principal</a></li>
-    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/suporte.html" target="_blank">Página "Suporte"</a></li>
-    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/sobrenos.html" target="_blank">Página "Sobre Nós"</a></li>
-    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/adotepets.html" target="_blank">Página "Adote Pets"</a></li>
-    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/sejacolaborador.html" target="_blank">Página "Seja Colaborador"</a></li>
-    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/detalhesong.html" target="_blank">Página "Detalhes ONG"</a></li>
-    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/blog.html" target="_blank">Página "Blog"</a></li>
-    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/cadastro.html" target="_blank">Página "Cadastro"</a></li>
-    <li><a href="https://joaoofontenelle.github.io/TCCPataCerta/definasenha.html" target="_blank">Página "Defina Senha"</a></li>
-</ul>
+**TCC "Pata Certa" – Em prol dos animais (em desenvolvimento...)**
+
+O **Pata Certa** é um projeto de Trabalho de Conclusão de Curso (TCC) com foco na **proteção, acolhimento e adoção responsável de animais**.  
+O objetivo principal é criar uma plataforma digital que conecte **ONGs, colaboradores e adotantes**, incentivando o cuidado com animais em situação de abandono e oferecendo suporte para fortalecer iniciativas de proteção animal.  
+
+---
+
+## 🚀 Objetivos do Projeto  
+
+- Criar uma **plataforma intuitiva** para adoção de animais.  
+- Oferecer espaço para **ONGs se cadastrarem e divulgarem seus trabalhos**.  
+- Possibilitar que pessoas possam **adotar pets de forma responsável**.  
+- Incentivar **colaborações financeiras e voluntariado**.  
+- Educar a sociedade por meio de **conteúdo informativo e blog educativo** sobre cuidados com pets.  
+
+---
+
+## 📑 Estrutura do Site  
+
+O projeto está sendo desenvolvido em **HTML, CSS e JavaScript**, hospedado via **GitHub Pages**.  
+
+🔗 Acesse abaixo as páginas já disponíveis:  
+
+- 🌐 [Página Principal](https://joaoofontenelle.github.io/TCCPataCerta/index.html)  
+- 📞 [Suporte](https://joaoofontenelle.github.io/TCCPataCerta/suporte.html)  
+- 👥 [Sobre Nós](https://joaoofontenelle.github.io/TCCPataCerta/sobrenos.html)  
+- 🐶 [Adote Pets](https://joaoofontenelle.github.io/TCCPataCerta/adotepets.html)  
+- 🤝 [Seja Colaborador](https://joaoofontenelle.github.io/TCCPataCerta/sejacolaborador.html)  
+- 🏢 [Detalhes ONG](https://joaoofontenelle.github.io/TCCPataCerta/detalhesong.html)  
+- 📰 [Blog](https://joaoofontenelle.github.io/TCCPataCerta/blog.html)  
+- 📝 [Cadastro](https://joaoofontenelle.github.io/TCCPataCerta/cadastro.html)  
+- 🔑 [Defina Senha](https://joaoofontenelle.github.io/TCCPataCerta/definasenha.html)  
+
+---
+
+## 🛠️ Tecnologias Utilizadas  
+
+- **HTML5** → Estrutura das páginas  
+- **CSS3** → Estilização e responsividade  
+- **JavaScript** → Interatividade (em desenvolvimento)  
+- **GitHub Pages** → Hospedagem do projeto  
+
+---
+
+## 📌 Público-Alvo  
+
+- Pessoas interessadas em **adotar pets**.  
+- ONGs e protetores independentes que desejam **divulgar animais para adoção**.  
+- Colaboradores que queiram **voluntariamente** a causa.  
+- Sociedade em geral, buscando **educação e conscientização** sobre os cuidados com animais.  
+
+---
+
+## 📚 Próximos Passos  
+
+- Implementar **formulários dinâmicos** para cadastro e login.  
+- Criar **integração com banco de dados** para gerenciamento de ONGs, adotantes e animais.  
+- Adicionar **funcionalidades de busca e filtros** na área de adoção.  
+- Expandir o **blog** com artigos e notícias.  
+- Trabalhar em uma **versão mobile otimizada**.  
+
+---
+
+## 👨‍💻 Autores  
+
+Projeto desenvolvido por **João Victório Dos Santos Fontenelle** e equipe, como parte do TCC do curso Técnico em Desenvolvimento de Sistemas.  
+
+---
+
+## 📜 Licença  
+
+Este projeto está sob a licença **MIT**. Você pode utilizá-lo, modificar e contribuir, desde que mantenha os devidos créditos.  
+
+---
