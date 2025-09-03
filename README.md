@@ -22,15 +22,15 @@ The project is being developed using **HTML, CSS, and JavaScript**, hosted on **
 
 🔗 Access the pages already available:  
 
-- 🌐 [Home Page](https://joaoofontenelle.github.io/TCCPataCerta/index.html)  
-- 📞 [Support](https://joaoofontenelle.github.io/TCCPataCerta/suporte.html)  
-- 👥 [About Us](https://joaoofontenelle.github.io/TCCPataCerta/sobrenos.html)  
-- 🐶 [Adopt Pets](https://joaoofontenelle.github.io/TCCPataCerta/adotepets.html)  
-- 🤝 [Become a Contributor](https://joaoofontenelle.github.io/TCCPataCerta/sejacolaborador.html)  
-- 🏢 [NGO Details](https://joaoofontenelle.github.io/TCCPataCerta/detalhesong.html)  
-- 📰 [Blog](https://joaoofontenelle.github.io/TCCPataCerta/blog.html)  
-- 📝 [Sign Up](https://joaoofontenelle.github.io/TCCPataCerta/cadastro.html)  
-- 🔑 [Set Password](https://joaoofontenelle.github.io/TCCPataCerta/definasenha.html)  
+- 🌐 [Home Page](https://joaoofontenelle.github.io/PataCerta/index.html)  
+- 📞 [Support](https://joaoofontenelle.github.io/PataCerta/suporte.html)  
+- 👥 [About Us](https://joaoofontenelle.github.io/PataCerta/sobrenos.html)  
+- 🐶 [Adopt Pets](https://joaoofontenelle.github.io/PataCerta/adotepets.html)  
+- 🤝 [Become a Contributor](https://joaoofontenelle.github.io/PataCerta/sejacolaborador.html)  
+- 🏢 [NGO Details](https://joaoofontenelle.github.io/PataCerta/detalhesong.html)  
+- 📰 [Blog](https://joaoofontenelle.github.io/PataCerta/blog.html)  
+- 📝 [Sign Up](https://joaoofontenelle.github.io/PataCerta/cadastro.html)  
+- 🔑 [Set Password](https://joaoofontenelle.github.io/PataCerta/definasenha.html)  
 
 ---
 
