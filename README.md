@@ -48,7 +48,7 @@ O projeto está sendo desenvolvido em **HTML, CSS e JavaScript**, hospedado via 
 
 - Pessoas interessadas em **adotar pets**.  
 - ONGs e protetores independentes que desejam **divulgar animais para adoção**.  
-- Colaboradores que queiram **voluntariamente** a causa.  
+- Colaboradores que queiram **apoiar voluntariamente** a causa.  
 - Sociedade em geral, buscando **educação e conscientização** sobre os cuidados com animais.  
 
 ---
