@@ -53,16 +53,6 @@ O projeto está sendo desenvolvido em **HTML, CSS e JavaScript**, hospedado via 
 
 ---
 
-## 📚 Próximos Passos  
-
-- Implementar **formulários dinâmicos** para cadastro e login.  
-- Criar **integração com banco de dados** para gerenciamento de ONGs, adotantes e animais.  
-- Adicionar **funcionalidades de busca e filtros** na área de adoção.  
-- Expandir o **blog** com artigos e notícias.  
-- Trabalhar em uma **versão mobile otimizada**.  
-
----
-
 ## 👨‍💻 Autores  
 
 Projeto desenvolvido por **João Victório Dos Santos Fontenelle**, **Douglas Rodrigues Dos Santos**, **Eduarda de Barros Correia** e **Gabriel Ribeiro Miguel**, como parte do TCC do curso Técnico em Desenvolvimento de Sistemas.  
