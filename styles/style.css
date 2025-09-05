@@ -1669,7 +1669,7 @@ form > input, select {
     flex-direction: column;
     border-radius: 1rem;
     box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.212);
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1rem 0.75rem 1rem 0rem;
 }
 
 #container_dfn_senha > div > h3 {
@@ -1689,10 +1689,7 @@ form > input, select {
     margin: auto;
     padding: 2rem 1rem 2rem 1rem;
     border-radius: 1rem;
-}
-
-#requisitos_senha > img {
-    width: 1rem;
+    max-width: 80%;
 }
 
 #requisitos_senha > div {
@@ -1710,6 +1707,7 @@ form > input, select {
     border-radius: 0.5rem;
     padding-left: 0.75rem;
     margin: 0rem 0rem 2rem 0rem;
+    max-width: 80%;
 }
 
 #insercao_senha_nova > div > p {
@@ -1717,9 +1715,6 @@ form > input, select {
     text-align: start;
 }
 
-#requisitos_senha > img {
-    display: flex;
-}
 
 #caixa_de_marcacao:hover {
     cursor: pointer;
