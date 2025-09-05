@@ -1699,7 +1699,7 @@ form > input, select {
     display: flex;
     margin: auto;
     text-align: center;
-    width: 17rem;
+    width: 18rem;
     padding: 0.75rem 0rem 0rem 0rem;
 }
 
@@ -1739,7 +1739,7 @@ form > input, select {
     background-color: var(--cor_principal);
     border: 0px;
     height: 2.5rem;
-    width: 16.5rem;
+    width: 16rem;
     max-width: 85%;
     color: white;
     border-radius: 0.5rem;
