@@ -1656,7 +1656,7 @@ form > input, select {
 
 #main_dfn_senha {
     background-color: var(--cor_quartenaria);
-    padding: 6rem 0rem 6rem 0rem;
+    padding: 3rem 0rem 3rem 0rem;
 }
 
 #container_dfn_senha {
@@ -1664,21 +1664,43 @@ form > input, select {
     max-width: 80%;
     width: 30rem;
     margin: auto;
-    height: 30rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     border-radius: 1rem;
     box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.212);
-    padding: 1rem 0rem 2rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+#container_dfn_senha > div > h3 {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+#container_dfn_senha > div > p {
+    padding-bottom: 1rem;
 }
 
 #requisitos_senha {
     background-color: var(--cor_octonaria);
     max-width: 90%;
-    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
     margin: auto;
-    text-align: start;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 1rem;
+}
+
+#requisitos_senha > img {
+    width: 1rem;
+}
+
+#requisitos_senha > div {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 17rem;
+    padding: 0.75rem 0rem 0rem 0rem;
 }
 
 #insercao_senha_nova > div > input {
@@ -1687,6 +1709,7 @@ form > input, select {
     width: 21rem;
     border-radius: 0.5rem;
     padding-left: 0.75rem;
+    margin: 0rem 0rem 2rem 0rem;
 }
 
 #insercao_senha_nova > div > p {
@@ -1721,5 +1744,9 @@ form > input, select {
     color: white;
     border-radius: 0.5rem;
     font-size: medium;
-    margin-top: 1rem;
+    margin: 2rem 0rem 1rem 0rem
+}
+
+#caixa_de_marcacao {
+    margin: 2rem 0rem 0.75rem 0rem;
 }
