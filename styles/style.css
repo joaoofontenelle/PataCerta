@@ -926,7 +926,7 @@ form > input, select {
 #carrossel_galeria {
     display: flex;
     background-color: white;
-    width: 87.5vw;
+    width: 30rem;
     height: 23rem;
     border-radius: 0.75em;
     align-items: center;
@@ -934,13 +934,8 @@ form > input, select {
     justify-content: center;
 }
 
-#adote_pt_1 {
+#adote_pet_1 {
     display: flex;
-}
-
-#adote_pt_2 {
-    display: flex;
-    flex-direction: column;
 }
 
 #thor {
