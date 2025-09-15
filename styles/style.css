@@ -923,34 +923,46 @@ form > input, select {
 
 /* --------- ADOTE PETS --------- */
 
+#main_adote_pets {
+    background-color: var(--cor_octonaria);
+    padding-top: 2rem;
+}
+
 #carrossel_galeria {
     display: flex;
     background-color: white;
     width: 30rem;
-    height: 23rem;
+    height: 37rem;
     border-radius: 0.75em;
     align-items: center;
-    margin: auto;
     justify-content: center;
+    background-color: white;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.279);
+}
+
+#carrossel_galeria > img {
+    width: 25rem;
 }
 
 #adote_pet_1 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
 }
 
 #thor {
     border-radius: 0.75rem;
-    width: 22rem;
-    max-width: 90vw;
 }
 
 #caracteristicas_pet {
     background-color: white;
     padding: 1rem 0rem 1rem 0rem;
     border-radius: 0.75rem;
-    width: 87.5vw;
-    margin: auto;
-    margin-bottom: 1rem;
+    width: 30rem;
+    height: 35rem;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.279);
 }
 
 #caracteristicas_pet > div >  h3{
