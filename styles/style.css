@@ -928,26 +928,32 @@ form > input, select {
     padding-top: 2rem;
 }
 
+#img_principal_carrossel > img {
+    width: 23rem;
+}
+
+#img_principal_carrossel {
+    width: 80rem;
+}
+
 #carrossel_galeria {
     display: flex;
     background-color: white;
     width: 30rem;
+    max-width: 84%;
     height: 37rem;
     border-radius: 0.75em;
     align-items: center;
     justify-content: center;
     background-color: white;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.279);
-}
-
-#carrossel_galeria > img {
-    width: 25rem;
+    flex-direction: column;
 }
 
 #adote_pet_1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: 1rem;
     align-items: center;
 }
@@ -956,11 +962,22 @@ form > input, select {
     border-radius: 0.75rem;
 }
 
+#imagens_carrossel {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.imagem_carrossel {
+    width: 6rem;
+}
+
 #caracteristicas_pet {
     background-color: white;
     padding: 1rem 0rem 1rem 0rem;
     border-radius: 0.75rem;
-    width: 30rem;
+    width: 26rem;
     height: 35rem;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.279);
 }
