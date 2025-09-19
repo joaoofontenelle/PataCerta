@@ -1326,10 +1326,12 @@ form > input, select {
 
 #conteineres_estatisticos {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     background-color: var(--cor_secundaria);
-    padding-bottom: 2rem;
+    padding: 2rem 0rem 2rem 0rem;
+    margin-bottom: 3rem;
 }
 
 .estatistica_ong {
@@ -1341,7 +1343,6 @@ form > input, select {
     justify-content: center;
     align-items: center;
     color: white;
-    margin: auto;
     border-radius: 1rem;
     gap: 0.3rem;
 }
@@ -1349,10 +1350,6 @@ form > input, select {
 .estatistica_ong:hover {
     transform: scale(1.1);
     transition: 0.5s ease-out;
-}
-
-#estatistica_ong_1 {
-    margin-top: 2rem;
 }
 
 #info_contatos {
@@ -1380,7 +1377,8 @@ form > input, select {
     padding: 2.5em 0px 0em 0px;
     background-color: white;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -1404,13 +1402,19 @@ form > input, select {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
 }
 
-#momentos > img {
-    margin: auto;
-    border-radius: 2rem;
-    max-width: 70vw;
+#galeria_fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 1rem;
 }
 
-#momentos > img:hover {
+#momentos > #galeria_fotos > div > img {
+    border-radius: 1rem;
+}
+
+#momentos > #galeria_fotos > div > img:hover {
     transform: scale(0.975);
     transition: 0.2s ease-out;
 }
@@ -1675,10 +1679,10 @@ form > input, select {
 }
 
 #conteiner_cadastro {
-    width: 27.5rem;
-    max-width: 90%;
+    width: 40.5rem;
+    max-width: 80%;
     margin: auto;
-    padding: 3rem 0rem 3rem 0rem;
+    padding: 3rem 0rem 1rem 0rem;
     background-color: white;
     border-radius: 1rem;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.226);
@@ -1691,6 +1695,24 @@ form > input, select {
 }
 
 #conteiner_cadastro > form > div > input {
+    margin: 1rem 0rem 3rem 0rem;
+    max-width: 30%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+#conteiner_cadastro > form > #linha_1 > div, #linha_2 > div, #linha_3 > div, #linha_4 > div, #linha_5 > div, #linha_6 > div {
+    max-width: 500%;
+}
+
+#linha_1, #linha_2, #linha_4, #linha_5, #linha_6 {
+    max-width: 10%;
+    display: flex;
+}
+
+#conteiner_cadastro > form > #linha_1 > div > input, #linha_2 > div > input, #linha_4 > div > input, #linha_5 > div > input, #linha_6 > div > input {
     margin: 1rem 0rem 3rem 0rem;
     width: 20rem;
     max-width: 80%;
