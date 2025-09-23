@@ -1835,3 +1835,12 @@ form > input, select {
 #caixa_de_marcacao {
     margin: 2rem 0rem 0.75rem 0rem;
 }
+
+
+/* --------- Login --------- */
+
+
+#main_login {
+    background-color: var(--cor_secundaria);
+}
+
