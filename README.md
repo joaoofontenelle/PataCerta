@@ -31,7 +31,7 @@ The project is being developed using **HTML, CSS, and JavaScript**, hosted on **
 - 📰 [Blog](https://joaoofontenelle.github.io/PataCerta/blog.html)  
 - 📝 [Sign Up](https://joaoofontenelle.github.io/PataCerta/cadastro.html)  
 - 🔑 [Set Password](https://joaoofontenelle.github.io/PataCerta/definasenha.html)  
-
+- 👤 [Login](https://joaoofontenelle.github.io/PataCerta/login.html)
 ---
 
 ## 🛠️ Technologies Used  
