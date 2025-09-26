@@ -39,7 +39,7 @@ The project is being developed using **HTML, CSS, and JavaScript**, hosted on **
 - **HTML5** → Page structure  
 - **CSS3** → Styling and responsiveness  
 - **JavaScript** → Interactivity (in development)  
-- **GitHub Pages** → Project hosting  
+- **GitHub Pages** → Temporary project hosting
 
 ---
 
