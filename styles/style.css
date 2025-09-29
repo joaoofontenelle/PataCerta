@@ -1900,11 +1900,12 @@ form > input, select {
     align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.315);
-    padding-top: 0.3rem;
+    padding: 1rem 0rem 1rem 0rem;
 }
 
 #conteiner_login > div > img {
-    border-radius: 1rem 0rem 0rem 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
 }
 
 #form_login > p > a {
