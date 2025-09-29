@@ -34,16 +34,16 @@
 
             <div id="form_login">
                 <h1>PataCerta</h1>
-                <p>Bem-vindo de volta!</p>
+                <p id="welcome_login">Bem-vindo de volta!</p>
 
                 <form action="#">
-                    <div>
+                    <div id="email_login">
                         <h4>Email</h4>
                         <label for="iemail"></label>
                         <input type="email" name="Email" id="iemail" placeholder="seu@email.com">
                     </div>
 
-                    <div>
+                    <div id="senha_login">
                         <h4>Senha</h4>
                         <label for="isenha"></label>
                         <input type="password" name="Senha" id="isenha">
@@ -62,15 +62,17 @@
                     </section>
                 </form>
 
-                <section>
-                    <div></div>
+                <section id="continue_com">
+                    <div class="linha_azul"></div>
 
-                    <div ><p>Ou continue com</p></div>
+                    <div id="continue_com_p"><p>Ou continue com</p></div>
 
-                    <div></div>
+                    <div class="linha_azul""></div>
                 </section>
 
-                <img src="" alt="Logo da Google"><a href="#" id="google">Google</a></img>
+                <div id="continue_com_google">
+                    <img src="assets/LogoGoogle.webp" alt="Logo da Google" width="20rem"><a href="#" id="google">Google</a></img>
+                </div>
 
                 <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
             </div>

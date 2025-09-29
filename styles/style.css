@@ -1859,7 +1859,7 @@ form > input, select {
 }
 
 #main_login > section > div > form > div > h4 {
-    padding-right: 8rem;
+    padding: 0rem 18rem 0.5rem 0rem;
 }
 
 #main_login > section > p > a {
@@ -1899,4 +1899,66 @@ form > input, select {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.315);
+    padding-top: 0.3rem;
+}
+
+#conteiner_login > div > img {
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+#form_login > p > a {
+    color: var(--cor_principal);
+}
+
+#form_login {
+    padding: 0rem 2.75rem 0rem 2.75rem;
+}
+
+#welcome_login {
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+form > div > input {
+    border: 1px solid blue;
+    padding: 0.8rem 9.44rem 0.8rem 1rem;
+    border-radius: 0.5rem;
+}
+
+#senha_login, #email_login {
+    padding-top: 1.75rem;
+}
+
+.linha_azul {
+    height: 0.1rem; 
+    width: 6rem;
+    background-color: blue;
+}
+
+#continue_com {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+#continue_com_p {
+    padding: 0rem 1rem 0rem 0rem;
+    color: black;
+}
+
+#continue_com_google {
+    border: 1px solid blue;
+    width: 11rem;
+    border-radius: 0.5rem;
+    height: 3rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#continue_com_google > a {
+    padding: 0.25rem 0rem 0rem 0.5rem;
 }
