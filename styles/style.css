@@ -258,31 +258,32 @@ main {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 #encontre > p {
     padding-top: 12px;
-    font-size: xx-small;
+    font-size: medium;
 }
 
 
 #entrectt > p {
     padding-top: 12px;
-    font-size: xx-small;
-    max-width: 11rem;
+    font-size: medium;
+
 }
 
 
 #adocao > p {
     padding-top: 12px;
-    font-size: x-small;
+    font-size: medium;
 }
 
 main > p {
     padding-top: 36px;
-    font-size: x-small;
+    font-size: medium;
 }
 
 main > h3 {
@@ -605,8 +606,9 @@ main > a:hover {
 #observacao {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem 0rem 2rem 0rem;
+    justify-content: center;
     gap: 2rem;
+    padding: 2rem 0rem 2rem 0rem;
 }
 
 .obs {
@@ -614,7 +616,6 @@ main > a:hover {
     width: 18rem;
     padding: 4rem 1rem 4rem 0rem;
     border-radius: 1rem;
-    margin: auto;
 }
 
 .obs > img {
@@ -1791,13 +1792,13 @@ form > input, select {
 }
 
 #insercao_senha_nova > div > input {
-    height: 2.5rem;
+    height: 1rem;
     border: 2px solid rgba(0, 0, 0, 0.11);
     width: 21rem;
     border-radius: 0.5rem;
     padding-left: 0.75rem;
     margin: 0rem 0rem 2rem 0rem;
-    max-width: 80%;
+    max-width: 50%;
 }
 
 #insercao_senha_nova > div > p {
@@ -1900,7 +1901,7 @@ form > input, select {
     align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.315);
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 2rem 0rem 2rem 0rem;
 }
 
 #conteiner_login > div > img {
@@ -1931,9 +1932,9 @@ form > div > input {
 }
 
 .linha_azul {
-    height: 0.1rem; 
+    height: 0.05rem; 
     width: 6rem;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.486);
 }
 
 #continue_com {
