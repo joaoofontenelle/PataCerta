@@ -109,29 +109,37 @@
             <div id="enviodemsg">
                 <form action="#">
                     <h3>Envie sua mensagem</h3>
-                    <h6>Nome completo</h6>
-                    <label for="inome"></label>
-                    <input type="text" autocomplete="name" required>
+                    <div>
+                        <h6>Nome completo</h6>
+                        <label for="inome"></label>
+                        <input type="text" autocomplete="name" id="inome" required>
+                    </div>
 
-                    <h6>Email</h6>
-                    <label for="iemail"></label>
-                    <input type="email" autocomplete="email" required>
+                    <div>
+                        <h6>Email</h6>
+                        <label for="iemail"></label>
+                        <input type="email" autocomplete="email" id="iemail" required>
+                    </div>
                     
-                    <h6>Assunto</h6>
-                    <label for="iassunto"></label>
-                    <select name="assunto" id="iassunto" required>
-                        <option value="" selected>Selecione um assunto</option>
-                        <optgroup label="Opções">
-                            <option value="auxilio">Auxílio</option>
-                            <option value="nutricao">Nutrição</option>
-                        </optgroup>
-                    </select>
+                    <div>
+                        <h6>Assunto</h6>
+                        <label for="iassunto"></label>
+                        <select name="assunto" id="iassunto" required>
+                            <option value="" selected>Selecione um assunto</option>
+                            <optgroup label="Opções">
+                                <option value="auxilio">Auxílio</option>
+                                <option value="nutricao">Nutrição</option>
+                            </optgroup>
+                        </select>
+                    </div>
 
-                    <h6>Mensagem</h6>
-                    <label for="imensagem"></label>
-                    <textarea name="mensagem" id="imensagem" cols="30" rows="6" required></textarea>
-                    <br>
-                    <button type="submit" id="enviamsg">Enviar mensagem</button>
+                    <div>
+                        <h6>Mensagem</h6>
+                        <label for="imensagem"></label>
+                        <textarea name="mensagem" id="imensagem" cols="48" rows="5" required></textarea>
+                    </div>
+    
+                    <div><button type="submit" id="enviamsg">Enviar mensagem</button></div>
                 </form>
             </div>
         </section>

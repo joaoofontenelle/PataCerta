@@ -707,35 +707,40 @@ main > a:hover {
     align-items: center;
 }
 
-form > h6 {
+form > div > h6 {
     height: 2.5em;
     margin: 8px 0px 0px 0px;
 }
 
-form > input, select, textarea {
-    width: 20em;
-    border-radius: 0.25em;
-    border: none;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
-}
-
-form > input, select {
+form > div > input {
+    width: 21.75rem;
     height: 2rem;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.171);
 }
 
-#iassunto, #imensagem {
-    width: 20em;
+form > div > select {
+    height: 2.5rem;
+    width: 22rem;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+textarea {
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 0.25rem;
 }
 
 #enviamsg {
     background-color: #f97316;
     border-color: #f97316;
-    width: 20em;
-    height: 2em;
+    width: 22rem;
+    height: 2.5rem;
     color: white;
     font-weight: 100;
-    border-radius: 0.25em;
+    border-radius: 0.25rem;
     border: 0;
+    margin-top: 1rem;
 }
 
 #enviamsg:hover {
@@ -1921,7 +1926,7 @@ form > input, select {
     padding: 1rem 0rem 2rem 0rem;
 }
 
-form > div > input {
+#form_login > form > div > input {
     border: 1px solid blue;
     padding: 0.8rem 9.44rem 0.8rem 1rem;
     border-radius: 0.5rem;
