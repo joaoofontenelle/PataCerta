@@ -564,9 +564,11 @@ main > a:hover {
 .feedback {
     display: flex;
     text-align: start;
+    align-items: flex-start;
     width: 20rem;
-    height: 14rem;
-    padding: 2rem 1rem 0.5px 1rem;
+    max-width: 90%;
+    height: 11rem;
+    padding: 2rem 1rem 0rem 1rem;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
     border-radius: 1em;
 }
@@ -702,7 +704,7 @@ main > a:hover {
     flex-direction: column;
     background-color: #F9FAFB;
     width: 20em;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 0.7em;
     align-items: center;
 }
@@ -729,6 +731,7 @@ form > div > select {
 textarea {
     border: 1px solid rgba(0, 0, 0, 0.171);
     border-radius: 0.25rem;
+    width: 22rem;
 }
 
 #enviamsg {
