@@ -1890,7 +1890,7 @@ textarea {
 
 #main_login {
     background-color: var(--cor_secundaria);
-    padding: 3rem 0rem 3rem 0rem;
+    padding: 8rem 0rem 8rem 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2053,7 +2053,7 @@ textarea {
 
 @media screen and (max-width: 768px) {
     #main_login {
-        padding: 1rem;
+        padding: 10rem 0rem 10rem 0rem;
     }
 
     #conteiner_login {
