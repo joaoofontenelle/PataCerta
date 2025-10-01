@@ -1824,21 +1824,19 @@ textarea {
     padding: 0.75rem 0rem 0rem 0rem;
 }
 
-#insercao_senha_nova > div > input {
-    height: 1rem;
+#campo_senha > div > input {
+    height: 3rem;
     border: 2px solid rgba(0, 0, 0, 0.11);
-    width: 21rem;
-    border-radius: 0.5rem;
+    width: 27rem;
     padding-left: 0.75rem;
     margin: 0rem 0rem 2rem 0rem;
-    max-width: 50%;
+    max-width: 90%;
 }
 
-#insercao_senha_nova > div > p {
-    padding: 0.5rem 0rem 0.5rem 1.75rem;
+#campo_senha > div > p {
+    padding: 0.5rem 0rem 0.75rem 1rem;
     text-align: start;
 }
-
 
 #caixa_de_marcacao:hover {
     cursor: pointer;
@@ -1866,8 +1864,20 @@ textarea {
     margin: 2rem 0rem 1rem 0rem
 }
 
-#caixa_de_marcacao {
-    margin: 2rem 0rem 0.75rem 0rem;
+#caixa_li_e_aceito {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+#caixa_li_e_aceito > p {
+    width: 16rem;
+    text-align: center;
+}
+
+#caixa_li_e_aceito > input {
+    width: 1.5rem;
 }
 
 
@@ -1956,7 +1966,7 @@ textarea {
     gap: 0.3rem;
 }
 
-#lembrar_esquecer > div > input[type="checkbox"] {
+#lembrar_esquecer > div > input {
     margin: 0px;
     width: 16px;
     height: 16px;
