@@ -615,8 +615,8 @@ main > a:hover {
 
 .obs {
     background-color: var(--cor_secundaria);
-    width: 18rem;
-    padding: 4rem 1rem 4rem 0rem;
+    width: 20rem;
+    padding: 2rem 1rem 2rem 0rem;
     border-radius: 1rem;
 }
 
@@ -757,16 +757,18 @@ textarea {
 #transformando_vidas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #FFF7ED;
-    padding-top: 3rem;
-    padding-bottom: 2.5rem;
-    padding-left: 0px;
+    align-items: center;
+    min-height: 100%;
+    padding-bottom: 2rem;
 }
 
 #img_pets {
-    border-radius: 1rem;
-    width: 20rem;
+    width: 100%;
+    height: 100%;
+    max-width: 90%;
+    padding: 2rem 5rem 0rem 1.6rem;
 }
 
 #uma_por_vez > h1 {
@@ -779,7 +781,6 @@ textarea {
     font-size: small;
     width: 20rem;
     margin: auto;
-    padding-left: 0px;
 }
 
 #nossa_missao > h2 {
@@ -911,7 +912,8 @@ textarea {
 
 #adotar_colaborar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 4.5rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
@@ -1248,11 +1250,17 @@ textarea {
     margin: auto;
 }
 
+#observacoes {
+    background-color: var(--cor_secundaria);
+    padding-top: 2rem;
+    margin-top: 3rem;
+}
+
 #observacao_2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
     background-color: var(--cor_secundaria);
 }
 
@@ -1267,10 +1275,6 @@ textarea {
     display: flex;
     align-items: center;
     text-align: center;
-}
-
-.espacamento {
-    margin-top: 1rem;
 }
 
 
