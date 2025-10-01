@@ -1501,6 +1501,149 @@ textarea {
     cursor: pointer;
 }
 
+#principais_artigos {
+    padding-bottom: 10rem;
+}
+
+.box_blog {
+    width: 30rem;
+    margin: auto;
+    max-width: 80%;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.213);
+    text-align: left;
+    border-radius: 0.5rem;
+}
+
+.box_blog:hover {
+    transition: 0.5s ease-out;
+    transform: scale(1.025);
+}
+
+.box_blog > div > img {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.box_blog > div > h3 {
+    padding: 1rem 0rem 0rem 1rem;
+    font-size: 1.25rem;
+}
+.box_blog > div > p {
+    padding: 1rem 0rem 1rem 1.25rem;
+    width: 27rem;
+}
+
+.usuario_blog {
+    display: flex;
+    align-items: center;
+    padding-left: 1.75rem;
+}
+
+.user_ler_mais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.nome_usuario_blog > div > h5 {
+    padding: 0rem 0rem 0.25rem 0.5rem;
+}
+
+.ler_mais > a {
+    color: var(--cor_principal);
+    display: flex;
+    align-items: center;
+    padding-top: 0.75rem;
+}
+
+.ler_mais > a:hover {
+    transition: 0.5s ease-out;
+    color: black;
+}
+
+.ler_mais > a > img {
+    padding: 0rem 1.75rem 0rem 0.5rem;
+}
+
+#ultimos_artigos {
+  padding: 2rem 0;
+}
+
+.ultimos_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; 
+  max-width: 900px; 
+  margin: auto;
+}
+
+.box_blog_ultimos {
+  max-width: 287.5px; 
+  margin: auto;
+  height: 27.5rem;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.box_blog_ultimos:hover {
+  transition: 0.5s ease-out;
+  transform: scale(1.025);
+}
+
+.box_blog_ultimos > div > img {
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  width: 100%;
+  height: 180px;       /* mesma altura para todas */
+  object-fit: cover;   /* corta e mantém proporção sem distorcer */
+  display: block;
+}
+
+.box_blog_ultimos > div > h3 {
+  padding: 1rem 0rem 0rem 1rem;
+  font-size: 1.25rem;
+}
+
+.box_blog_ultimos > div > p {
+  padding: 1rem 1rem;
+}
+
+.usuario_blog_ultimos {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.user_ler_mais_ultimos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.nome_usuario_blog_ultimos > div > h5 {
+  padding: 0rem 0rem 0.25rem 0.5rem;
+}
+
+.ler_mais_ultimos > a {
+  color: var(--cor_principal);
+  display: flex;
+  align-items: center;
+  padding-top: 0.75rem;
+}
+
+.ler_mais_ultimos > a:hover {
+  transition: 0.5s ease-out;
+  color: black;
+}
+
+.ler_mais_ultimos > a > img {
+  padding: 0rem 1rem 0rem 0.5rem;
+}
+
+
 #be_inside {
     padding-bottom: 2rem;
     background-color: var(--cor_principal);
