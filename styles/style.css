@@ -1502,20 +1502,21 @@ textarea {
 }
 
 #principais_artigos {
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0px;
     align-items: center;
+    gap: 2rem;
 }
 
 .box_blog {
     width: 30rem;
-    margin: auto;
-    max-width: 80%;
+    max-width: 95%;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.213);
     text-align: left;
+    height: 29rem;
     border-radius: 0.5rem;
 }
 
@@ -1526,6 +1527,10 @@ textarea {
 
 .box_blog > div > img {
     border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.sub_conteiner > div > p {
+    padding: 0.5rem;
 }
 
 .box_blog > div > h3 {
@@ -1572,18 +1577,40 @@ textarea {
 
 #sub_conteineres {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    width: 20%;
+    flex-direction: column;
+    padding-top: 1.25rem;
 }
 
 .sub_conteiner {
     display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.275);
+    align-items: center;
+    border-radius: 0.5rem;
+    height: 14rem;
+    color: black;
+    padding-top: 0.1rem;
+    max-width: 95%;
+    margin: auto;
+}
+
+.sub_conteiner:hover {
+    transition: 0.5s ease-out;
+    transform: scale(1.025);
 }
 
 .sub_conteiner > * {
-    font-size: xx-small;
+    font-size: small;
 } 
+
+.sub_conteiner > div > img {
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+} 
+
+.direita_conteiner_blog {
+    padding: 0rem 0.35rem 0rem 0.35rem;
+}
 
 #ultimos_artigos {
     margin-bottom: 2rem;
@@ -1648,6 +1675,24 @@ textarea {
 .treinamento_blog {
     background-color: #FEF3C7;
     color: #D97706;
+}
+
+.comportamento_blog {
+    background-color: #E5E7EB;
+    color: #7C3AED;
+    width: 6rem;
+    border-radius: 1rem;
+    margin: auto;
+    margin-bottom: 0.75rem;
+}
+
+.saude_blog {
+    background-color: #E5E7EB;
+    color: #2563EB;
+    width: 3rem;
+    margin: auto;
+    border-radius: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 .box_blog_ultimos > div > h3 {
