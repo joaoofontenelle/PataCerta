@@ -1512,11 +1512,10 @@ textarea {
 }
 
 .box_blog {
-    width: 30rem;
     max-width: 95%;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.213);
     text-align: left;
-    height: 29rem;
+    height: 100%;
     border-radius: 0.5rem;
 }
 
@@ -1580,6 +1579,7 @@ textarea {
     flex-wrap: wrap;
     flex-direction: column;
     padding-top: 1.25rem;
+    gap: 1rem;
 }
 
 .sub_conteiner {
@@ -1678,7 +1678,7 @@ textarea {
 }
 
 .comportamento_blog {
-    background-color: #E5E7EB;
+    background-color: #EDE9FE;
     color: #7C3AED;
     width: 6rem;
     border-radius: 1rem;
@@ -1687,7 +1687,7 @@ textarea {
 }
 
 .saude_blog {
-    background-color: #E5E7EB;
+    background-color: #DBEAFE;
     color: #2563EB;
     width: 3rem;
     margin: auto;
