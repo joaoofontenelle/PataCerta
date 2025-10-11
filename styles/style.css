@@ -1513,7 +1513,7 @@ textarea {
 
 .box_blog {
     max-width: 88%;
-    width: 100%;
+    width: 37.5rem;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.213);
     text-align: left;
     height: 100%;
