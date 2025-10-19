@@ -12,6 +12,7 @@
     --cor_senaria: #FFF2DB;
     --cor_setenaria: #FDEDD5;
     --cor_octonaria: #F9FAFB;
+    --cor_nonaria: #FFF9F1;
     --fonte_principal: 'Poppins', sans-serif;
 }
 
@@ -198,34 +199,52 @@ footer {
 
 
 #banner {
-    background-color: var(--cor_setenaria);
+    background-color: var(--cor_nonaria);
     font-family: var(--fonte_principal);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-height: 60%;
-    width: 100%;
-    max-width: 100%;
-    padding: 0rem 0rem 3.5rem 0rem;
+    flex-direction: row-reverse;
+    padding: 2rem 0rem 2rem 0rem;
     gap: 2rem;
 }
 
-.adotar {
+#links_banner {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#adotar_index {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 13rem;
+    width: 8rem;
     border-radius: 2rem;
     padding: 1rem;
-    margin: auto;
     height: 0.7rem;
     font-size: large;
     color: white;
     background-color: var(--cor_principal);
 }
 
-.adotar:hover {
+#adotar_index:hover {
+    text-decoration: underline;
+    transition: 0.5s ease-out;
+    transform: scale(1.05);
+}
+
+#doar_index {
+    color: var(--cor_principal);
+    border: 2px solid var(--cor_principal);
+    border-radius: 2rem;
+    padding: 0rem 1rem 0rem 1rem;
+    align-items: center;
+    display: flex;
+}
+
+#doar_index:hover {
     text-decoration: underline;
     transition: 0.5s ease-out;
     transform: scale(1.05);
@@ -233,16 +252,18 @@ footer {
 
 #conteudo {
     text-align: center;
+    width: 27.5rem;
 }
 
 #conteudo > p {
     padding: 2rem 0rem 2rem 0rem;
-    width: 50vw;
     margin: auto;
 }
 
-#conteudo > h2 {
-    font-size: xx-large;
+#conteudo > h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 2rem;
 }
 
 #ftbanner {
@@ -436,6 +457,7 @@ main > a:hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    flex-direction: row-reverse;
     justify-content: center;
     gap: 4rem;
     margin-top: 6rem;
