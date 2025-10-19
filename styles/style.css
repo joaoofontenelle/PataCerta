@@ -316,7 +316,7 @@ main > h3 {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
     padding-bottom: 1.75rem;
     width: 20rem;
-    height: 19rem;
+    height: 100%;
     background-color: white;
 }
 
@@ -330,7 +330,7 @@ main > h3 {
 }
 
 .pets > h4, p {
-    padding: 0px 0px 0px 1em;
+    padding: 0.5rem 0rem 0rem 2rem;
 }
 
 .icons {
@@ -344,13 +344,13 @@ main > h3 {
 }
 
 #disponiveis {
-    padding: 2.5em 0px 4em 0px;
+    padding: 2.5rem 0px 2.5rem 0px;
     background-color: var(--cor_terciaria);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 2rem;
     margin: 1rem 0rem 2rem 0rem;
 }
 
@@ -489,8 +489,8 @@ main > a:hover {
     justify-content: center;
     margin: auto;
     gap: 2rem;
-    border-radius: 2em;
-    padding-bottom: 2em;
+    border-radius: 2rem;
+    padding-bottom: 1rem;
 }
 
 #vejamais {
@@ -525,13 +525,18 @@ main > a:hover {
 
 .pets2 > h6, h5 {
     text-align: left;
-    margin-left: 0.7em;
+    margin-left: 1.9rem;
 }
 
 .pets2 > p {
     text-align: left;
     font-size: x-small;
     color: #1F2937;
+    width: 16rem;
+}
+
+.pets2 > h5 {
+    width: 17rem;
 }
 
 .pets2:hover {
@@ -541,7 +546,7 @@ main > a:hover {
 
 #ultimosposts {
     display: flex;
-    margin-bottom: 6em;
+    margin-bottom: 6rem;
     flex-direction: column;
     justify-content: center;
 }
