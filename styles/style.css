@@ -282,29 +282,24 @@ main {
     gap: 3rem;
     flex-wrap: wrap;
     align-items: center;
+    padding: 0px;
 }
 
 #encontre > p {
-    padding-top: 12px;
     font-size: medium;
+    padding: 12px 0px 0px 0px;
 }
 
-
-#entrectt > p {
-    padding-top: 12px;
+#entrectt > p, #adocao > p {
     font-size: medium;
-
-}
-
-
-#adocao > p {
-    padding-top: 12px;
-    font-size: medium;
+    padding: 12px 0px 0px 0px;
 }
 
 main > p {
-    padding-top: 36px;
     font-size: medium;
+    max-width: 95%;
+    padding: 32px 0px 0px 0px;
+    margin: auto;
 }
 
 main > h3 {
@@ -520,12 +515,17 @@ main > a:hover {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
     padding-bottom: 1.75em;
     width: 20rem;
-    height: 20rem;
+    height: 19rem;
 }
 
 .pets2 > h6, h5 {
     text-align: left;
     margin-left: 1.9rem;
+}
+
+.pets2 > h6 {
+    width: 14%;
+    padding: 0.25rem 0.65rem 0.25rem 1rem;
 }
 
 .pets2 > p {
