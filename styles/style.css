@@ -513,9 +513,9 @@ main > a:hover {
 .pets2 {
     border-radius: 8px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
-    padding-bottom: 1.75em;
+    padding-bottom: 4em;
     width: 20rem;
-    height: 19rem;
+    height: 18rem;
 }
 
 .pets2 > h6, h5 {
@@ -525,7 +525,8 @@ main > a:hover {
 
 .pets2 > h6 {
     width: 14%;
-    padding: 0.25rem 0.65rem 0.25rem 1rem;
+    padding: 0.25rem 0.7rem 0.25rem 0.9rem;
+    margin-top: 1.5rem;
 }
 
 .pets2 > p {
