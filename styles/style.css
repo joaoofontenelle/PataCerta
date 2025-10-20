@@ -813,8 +813,8 @@ textarea {
     margin: 1rem 0rem 1rem 0rem;
     font-size: 2.5rem;
     padding: 0px;
-    width: 26rem;
-    max-width: 99.9%;
+    width: 28rem;
+    max-width: 95%;
 }
 
 #uma_por_vez > p {
@@ -887,8 +887,7 @@ textarea {
 
 .estatisticas {
     background-color: white;
-    width: 10.5rem;
-    padding: 1rem 1rem 1rem 0rem;
+    padding: 1rem 1.65rem 1rem 0rem;
     margin: auto;
     border-radius: 1rem;
 }
@@ -960,11 +959,13 @@ textarea {
     width: 23rem;
     margin: auto;
     margin-top: 1rem;
+    padding: 0px;
 }
 
 #adotar_colaborar {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 4.5rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
