@@ -785,30 +785,43 @@ textarea {
 #transformando_vidas {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
     justify-content: center;
     background-color: #FFF7ED;
     align-items: center;
-    min-height: 100%;
+    margin: auto;
+    min-height: 80%;
     padding-bottom: 2rem;
 }
 
-#img_pets {
-    width: 100%;
-    height: 100%;
+#div_img_pets {
     max-width: 90%;
-    padding: 2rem 5rem 0rem 1.6rem;
+}
+
+#img_pets_sobre_nos {
+    width: 40rem;
+    max-width: 90%;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+#uma_por_vez {
+    max-width: 90%;
 }
 
 #uma_por_vez > h1 {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    font-size: xx-large;
+    margin: 1rem 0rem 1rem 0rem;
+    font-size: 2.5rem;
+    padding: 0px;
+    width: 26rem;
+    max-width: 99.9%;
 }
 
 #uma_por_vez > p {
     font-size: small;
-    width: 20rem;
+    width: 26rem;
     margin: auto;
+    padding: 0rem 0rem 2rem 0rem;
 }
 
 #nossa_missao > h2 {
@@ -817,7 +830,8 @@ textarea {
 
 #nossa_missao > p {
     line-height: 1.5rem;
-    width: 20rem;
+    width: 27rem;
+    max-width: 95%;
     margin: auto;
     padding-left: 0px;
     font-size: small;
@@ -827,10 +841,12 @@ textarea {
     line-height: 1.5rem;
     padding-left: 0px;
     margin-left: 0px;
+    max-width: 90%;
 }
 
 #como_nasceu > h2 {
     margin: 1rem 0rem 1rem 0rem;
+    max-width: 95%;
 }
 
 #como_comecou {
@@ -848,12 +864,14 @@ textarea {
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
+    max-width: 95%;
     align-items: center;
     justify-content: center;
+    flex-direction: row-reverse;
 }
 
 #como_nasceu > p {
-    width: 22rem;
+    width: 35rem;
     padding: 0.5rem 0rem 0.5rem 0rem;
     margin: auto;
 }
@@ -883,15 +901,17 @@ textarea {
 #equipe {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 1rem;
+    justify-content: space-around;
     align-items: center;
     gap: 2rem;
-    width: 100%;
 }
 
 #equipe > div {
-    width: 10rem;
+    width: 19rem;
+}
+
+#equipe > div > p {
+    width: 15.69rem;
 }
 
 .pfp {
@@ -909,10 +929,13 @@ textarea {
 
 .card_valores {
     background-color: white;
-    width: 11.065rem;
-    padding: 1rem 1rem 1rem 0rem;
+    width: 16rem;
     border-radius: 1rem;
+    padding: 1rem;
+}
 
+.card_valores > p {
+    padding: 0px;
 }
 
 .card_valores > h4 {
@@ -926,10 +949,11 @@ textarea {
     gap: 1rem;
 }
 
-
 #faca_parte {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #faca_parte > p {
