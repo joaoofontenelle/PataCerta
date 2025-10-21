@@ -325,7 +325,7 @@ main > h3 {
 }
 
 .pets > h4, p {
-    padding: 0.5rem 0rem 0rem 2rem;
+    padding: 0.5rem 0rem 0rem 1rem;
 }
 
 .icons {
@@ -1636,7 +1636,7 @@ textarea {
     padding-top: 1.25rem;
     height: 100%;
     gap: 1rem;
-    max-width: 88%;
+    max-width: 95%;
 }
 
 .sub_conteiner {
@@ -1647,7 +1647,9 @@ textarea {
     border-radius: 0.5rem;
     height: 14rem;
     color: black;
-    padding-right: 0px;
+    margin: auto;
+    width: 34rem;
+    max-width: 89dvw;
     padding-top: 0.1rem;
 }
 
@@ -1666,11 +1668,15 @@ textarea {
 
 .direita_conteiner_blog {
     text-align: left;
-    width: 16rem;
+    padding-left: 1rem;
 }
 
-.direita_conteiner_blog > p, h3 {
-    max-width: 90%;
+.direita_conteiner_blog > p {
+    max-width: 69%;
+}
+
+.direita_conteiner_blog > h3 {
+    max-width: 70%;
 }
 
 #ultimos_artigos {
@@ -1687,6 +1693,7 @@ textarea {
   justify-content: center;
   gap: 1rem; 
   margin: auto;
+  max-width: 92.5%;
 }
 
 .autor_blog {
@@ -1745,7 +1752,7 @@ textarea {
 .comportamento_blog {
     background-color: #EDE9FE;
     color: #7C3AED;
-    width: 6rem;
+    width: fit-content;
     border-radius: 1rem;
     margin-bottom: 0.75rem;
 }
