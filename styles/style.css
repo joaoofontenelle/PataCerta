@@ -1647,6 +1647,7 @@ textarea {
     border-radius: 0.5rem;
     height: 14rem;
     color: black;
+    padding-right: 0px;
     padding-top: 0.1rem;
 }
 
@@ -1657,7 +1658,6 @@ textarea {
 
 .sub_conteiner > * {
     font-size: small;
-    max-width: 58%;
 } 
 
 .sub_conteiner > div > img {
@@ -1665,8 +1665,12 @@ textarea {
 } 
 
 .direita_conteiner_blog {
-    padding: 0rem 0rem 0rem 2rem;
     text-align: left;
+    width: 16rem;
+}
+
+.direita_conteiner_blog > p, h3 {
+    max-width: 90%;
 }
 
 #ultimos_artigos {
@@ -1695,7 +1699,7 @@ textarea {
 }
 
 .box_blog_ultimos {
-  max-width: 420px; 
+  max-width: 95%; 
   margin: auto;
   height: 28rem;
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
