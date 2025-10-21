@@ -1609,10 +1609,6 @@ textarea {
     padding-bottom: 1rem;
 }
 
-.nome_usuario_blog > div > h5 {
-    padding: 0rem 0rem 0.25rem 0.5rem;
-}
-
 .ler_mais > a {
     color: var(--cor_principal);
     display: flex;
