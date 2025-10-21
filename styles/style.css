@@ -1297,6 +1297,10 @@ textarea {
     transform: scale(1.05);
 }
 
+.espacamento {
+    padding-top: 1rem;
+}
+
 #junte-se > p {
     padding: 2rem 0rem 2rem 0rem;
     width: 64vw;
@@ -1702,7 +1706,7 @@ textarea {
 }
 
 .box_blog_ultimos {
-  width: 22rem;
+  width: 24rem;
   max-width: 95%; 
   margin: auto;
   height: 28rem;
@@ -2115,7 +2119,6 @@ textarea {
 }
 
 #conteiner_login > div > img {
-    margin: 0.75rem;
     border-radius: 0.75rem;
     max-width: 350px; 
     width: 100%;
