@@ -36,12 +36,12 @@
                     </div>
                 <section id="linha_1">
                     <div>
-                        <p>Nome Completo</p>
+                        <p class="campo_cadastro">Nome Completo</p>
                         <label for="inome"></label>
                         <input type="text" name="nome_completo" id="inome" placeholder="Digite seu nome completo">
                     </div>
                     <div>
-                        <p>CPF</p>
+                        <p class="campo_cadastro">CPF</p>
                         <label for="icpf"></label>
                         <input type="text" name="cpf" id="icpf" placeholder="000.000.000-00">
                     </div>
@@ -49,21 +49,21 @@
 
                 <section id="linha_2">
                     <div>
-                        <p>Nascimento</p>
+                        <p class="campo_cadastro">Nascimento</p>
                         <label for="inascimento"></label>
-                        <input type="date" name="nascimento" id="inascimento" placeholder="DD/MM/AAAA">
+                        <input type="date" name="nascimento" id="inascimento" placeholder="DD/MM/AAAA"">
                     </div>
                     <div>
-                        <p>Telefone</p>
+                        <p class="campo_cadastro">Telefone</p>
                         <label for="itelefone"></label>
                         <input type="tel" name="telefone" id="itelefone" placeholder="(00) 00000-0000">
                     </div>
                 </section>
 
-                <div>
-                    <p>E-mail</p>
+                <div id="linha_3">
+                    <p id="campo_email">E-mail</p>
                     <label for="iemail"></label>
-                    <input type="email" name="email" id="iemail" placeholder="seu@email.com" style="padding: 0rem 12rem 0rem 1rem;">
+                    <input type="email" name="email" id="iemail" placeholder="seu@email.com" class="maior_linha_cadastro">
                 </div>
 
                 <div>
@@ -72,12 +72,12 @@
 
                 <section id="linha_4">
                     <div>
-                        <p>CEP</p>
+                        <p class="campo_cadastro">CEP</p>
                         <label for="icep"></label>
                         <input type="number" name="cep" id="icep" placeholder="00000-000" autocomplete="postal-code">
                     </div>
                     <div>
-                        <p>Rua</p>
+                        <p class="campo_cadastro">Rua</p>
                         <label for="inome"></label>
                         <input type="text" name="rua" id="irua" placeholder="Av. Dr. Pinto" autocomplete="street-address">
                     </div>
@@ -85,37 +85,36 @@
 
                 <section id="linha_5">
                     <div>
-                        <p>Número</p>
+                        <p class="campo_cadastro">Número</p>
                         <label for="inumero"></label>
                         <input type="number" name="numero" id="inumero" placeholder="1234" autocomplete="address-line1">
                     </div>
                     <div>
-                        <p>Complemento</p>
+                        <p class="campo_cadastro">Complemento</p>
                         <label for="icomplemento"></label>
                         <input type="text" name="complemento" id="icomplemento" placeholder="1234" autocomplete="address-line2">
                     </div>
+                    <div>
+                        <p class="campo_cadastro">Estado</p>
+                        <label for="iestado"></label>
+                        <input type="" name="estado" id="iestado" placeholder="Selecione o estado" autocomplete="address-level1">
+                    </div>
                 </section>
-
-                <div>
-                    <p>Estado</p>
-                    <label for="iestado"></label>
-                    <input type="" name="estado" id="iestado" placeholder="Selecione o estado" autocomplete="address-level1" style="padding: 0rem 12rem 0rem 1rem;">
-                </div>
                     
                 <section id="linha_6">
                     <div>
-                        <p>Cidade</p>
+                        <p class="campo_cadastro">Cidade</p>
                         <label for="inome"></label>
                         <input type="text" name="cidade" id="icidade" placeholder="Sua cidade" autocomplete="address-level2">
                     </div>
                     <div>
-                        <p>Bairro</p>
+                        <p class="campo_cadastro">Bairro</p>
                         <label for="inome"></label>
                         <input type="text" name="bairro" id="ibairro" placeholder="Seu bairro" autocomplete="address-level2">
                     </div>
                 </section>
                 <div>
-                    <input type="submit" id="prosseguir" value="PROSSEGUIR" style="padding-right: 1rem;">
+                    <input type="submit" id="prosseguir" value="Prosseguir">
                 </div>
                 </section>
             </form>
