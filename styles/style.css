@@ -514,30 +514,30 @@ main > a:hover {
     border-radius: 8px;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.233);
     padding-bottom: 4em;
-    width: 20rem;
-    height: 18rem;
+    width: 18rem;
+    height: 17.5rem;
 }
 
 .pets2 > h6, h5 {
     text-align: left;
-    margin-left: 1.9rem;
+    margin-left: 1rem;
 }
 
 .pets2 > h6 {
-    width: 14%;
-    padding: 0.25rem 0.7rem 0.25rem 0.9rem;
-    margin-top: 1.5rem;
+    width: fit-content;
+    padding: 0.25rem 0.7rem 0.25rem 0.75rem;
+    margin-top: 0.5rem;
 }
 
 .pets2 > p {
     text-align: left;
-    font-size: x-small;
+    font-size: smaller;
     color: #1F2937;
     width: 16rem;
 }
 
 .pets2 > h5 {
-    width: 17rem;
+    max-width: 85%;
 }
 
 .pets2:hover {
@@ -1461,11 +1461,19 @@ textarea {
     max-width: 90%;
     margin: auto;
     border-radius: 0.5rem;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly; 
     gap: 1.5rem; 
+}
+
+#feedbacks_ong {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .feedback2 {
@@ -1489,6 +1497,7 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
+    max-width: 95%;
 }
 
 .avaliacao2 > h4 {
@@ -1648,7 +1657,7 @@ textarea {
     height: 14rem;
     color: black;
     margin: auto;
-    width: 34rem;
+    width: 27rem;
     max-width: 89dvw;
     padding-top: 0.1rem;
 }
@@ -1688,12 +1697,12 @@ textarea {
 }
 
 .ultimos_container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem; 
-  margin: auto;
-  max-width: 92.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; 
+    margin: auto;
+    max-width: 92.5%;
 }
 
 .autor_blog {
@@ -1706,33 +1715,33 @@ textarea {
 }
 
 .box_blog_ultimos {
-  width: 24rem;
-  max-width: 95%; 
-  margin: auto;
-  height: 28rem;
-  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
-  text-align: left;
-  border-radius: 0.5rem;
+    width: 25.25rem;
+    max-width: 95%; 
+    margin: auto;
+    height: 28rem;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    border-radius: 0.5rem;
 }
 
 .box_blog_ultimos:hover {
-  transition: 0.5s ease-out;
-  transform: scale(1.025);
+    transition: 0.5s ease-out;
+    transform: scale(1.025);
 }
 
 .box_blog_ultimos > div > img {
-  border-radius: 0.5rem 0.5rem 0rem 0rem;
-  width: 100%;
-  height: 200px;      
-  object-fit: cover;   
-  display: block;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    width: 100%;
+    height: 200px;      
+    object-fit: cover;   
+    display: block;
 }
 
 .treinamento_blog, .adocao_blog, .nutricao_blog {
     border-radius: 3rem;
     margin: 1rem 0rem 1rem 0.75rem;
     width: fit-content;
-    font-size: xx-small;
+    font-size: small;
 }
 
 .nutricao_blog {
@@ -1767,25 +1776,25 @@ textarea {
 }
 
 .box_blog_ultimos > div > h3 {
-  padding: 0rem 0rem 0rem 1rem;
-  font-size: 1rem;
+    padding: 0rem 0rem 0rem 1rem;
+    font-size: 1rem;
 }
 
 .box_blog_ultimos > div > p {
-  padding: 1rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .usuario_blog_ultimos {
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
 }
 
 .user_ler_mais_ultimos {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
 }
 
 .nome_usuario_blog_ultimos > div {
@@ -1794,33 +1803,33 @@ textarea {
 }
 
 .nome_usuario_blog_ultimos > div > h5 {
-  padding: 0rem 0rem 0.25rem 0.5rem;
-  margin: 0px;
-  display: flex;
-  align-items: center;
+    padding: 0rem 0rem 0.25rem 0.5rem;
+    margin: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .nome_usuario_blog_ultimos > div > p {
-  padding: 0rem 0rem 0.25rem 0.5rem;
-  margin: 0px;
-  display: flex;
-  align-items: center;
+    padding: 0rem 0rem 0.25rem 0.5rem;
+    margin: 0px;
+    display: flex;
+    align-items: center;
 }
 
 .ler_mais_ultimos > a {
-  color: var(--cor_principal);
-  display: flex;
-  align-items: center;
-  padding-top: 0.75rem;
+    color: var(--cor_principal);
+    display: flex;
+    align-items: center;
+    padding-top: 0.75rem;
 }
 
 .ler_mais_ultimos > a:hover {
-  transition: 0.5s ease-out;
-  color: black;
+    transition: 0.5s ease-out;
+    color: black;
 }
 
 .ler_mais_ultimos > a > img {
-  padding: 0rem 1rem 0rem 0.5rem;
+    padding: 0rem 1rem 0rem 0.5rem;
 }
 
 #be_inside {
@@ -1856,7 +1865,7 @@ textarea {
     border-radius: 4rem;
     border: 0px;
     margin-left: 0.5rem;
-    padding: 0.7rem 0.75rem 0.7rem 0rem;
+    padding: 0.2rem 0.85rem 0.7rem 0rem;
 }
 
 #melhor_email_pesquisa > button:hover {
