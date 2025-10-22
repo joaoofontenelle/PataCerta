@@ -1936,8 +1936,8 @@ textarea {
 }
 
 #conteiner_cadastro {
-    width: 40.5rem;
-    max-width: 80%;
+    width: 45rem;
+    max-width: 85%;
     margin: auto;
     padding: 3rem 0rem 1rem 0rem;
     background-color: white;
@@ -1946,9 +1946,9 @@ textarea {
 }
 
 #criar_conta {
-    padding: 1rem 0rem 4rem 0rem;
-    width: 12rem;
+    padding: 1rem 0rem 0rem 0rem;
     margin: auto;
+    max-width: 80%;
 }
 
 .campo_cadastro {
@@ -1960,36 +1960,47 @@ textarea {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 90%;
     gap: 1rem;
     justify-content: center;
+    padding: 0.5rem 0rem 0.5rem 0rem;
 }
 
 #linha_3 {
     display: flex;
     flex-direction: column;
-    margin: auto;
     justify-content: center;
-    width: 24.5rem;
+    width: 40.25rem;
+    margin: auto;
+    max-width: 90%;
 }
 
 #linha_3 > input {
     border: 1px solid rgba(0, 0, 0, 0.298);
-    padding-left: 1rem;
-    height: 2rem;
+    padding-left: 0.5rem;
+    height: 2.5rem;
     border-radius: 0.3rem;
+    width: 39.5rem;
+}
+
+#linha_5 > div > input {
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.298);
+    padding-left: 0.5rem;
+    width: 12.075rem;
 }
 
 #inascimento {
     width: 10.65rem;
 }
 
-#linha_1 > div > input, #linha_2 > div > input, #linha_4 > div > input, #linha_5 > div > input, #linha_6 > div > input {
-    height: 2rem;
+#linha_1 > div > input, #linha_2 > div > input, #linha_4 > div > input, #linha_6 > div > input {
+    height: 2.5rem;
     border-radius: 0.3rem;
     border: 1px solid rgba(0, 0, 0, 0.298);
     padding-left: 1rem;
-    min-width: 6rem;
+    width: 18.5rem;
+    max-width: 95%;
 }
 
 #campo_email {
@@ -1999,7 +2010,7 @@ textarea {
 }
 
 #informacoes_pessoais, #info_pessoal_endereco {
-    padding-bottom: 1rem;
+    padding: 2.5rem 0rem 1rem 0rem;
     font-size: x-large;
 }
 
@@ -2008,9 +2019,9 @@ textarea {
     background-color: var(--cor_principal);
     text-align: center;
     width: 90%;
-    height: 2rem;
+    height: 3rem;
     border: 0px;
-    margin: 2rem 0rem 1rem 0rem;
+    margin: 4rem 0rem 2.5rem 0rem;
     border-radius: 0.25rem;
 }
 
