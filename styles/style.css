@@ -1000,9 +1000,22 @@ textarea {
     gap: 2.5rem;
 }
 
-#conteineres_adote_pets {
-    display: flex;
-    flex-direction: column;
+.linhas_conteineres > div > * {
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}
+
+.linhas_conteineres > div > img {
+    padding-right: 2rem;
+}
+
+.linhas_conteineres > div {
+    padding: 0.75rem 10rem 0.75rem 0.75rem;
+    margin: 1rem;
+    background-color: var(--cor_octonaria);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.183);
 }
 
 #fts_adote_pets {
@@ -1012,6 +1025,15 @@ textarea {
 .linhas_conteineres {
     display: flex;
     justify-content: center;
+    padding-right: 1.55rem;
+    margin: auto;
+}
+
+#conteineres_adote_pets {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 #sobre_pet {
@@ -1022,12 +1044,57 @@ textarea {
 
 #dados_adote_pets {
     display: flex;
-    justify-content: space-around;
+    padding-left: 4.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#pet_disponivel {
+    margin: 1.5rem 7rem 0rem 10rem;
+    background-color: var(--cor_quartenaria);
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    color: var(--cor_principal);
+}
+
+#dados_adote_pets > div > img {
+    padding-right: 0.35rem;
+}
+
+#sobre_max > * {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#sobre_max {
+    padding: 1rem 0rem 0rem 1.25rem;
+}
+
+#sobre_max > p {
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+#sobre_max > h3 {
+    padding-left: 0.7rem;
+}
+
+#dados_adote_pets > div, #dados_adote_pets > *, #dados_adote_pets > div > *, #dados_adote_pets > section > *, #dados_adote_pets > section > div > *, #dados_adote_pets > section, #dados_adote_pets > * {
+    padding: 0px;
 }
 
 #caracteristicas_adote_pets {
     display: flex;
     justify-content: center;
+}
+
+#caracteristicas_adote_pets > div > * {
+    padding: 0rem;
+    margin: 0px 0.5rem 0rem 0.5rem;
 }
 
 #links_adote_pets {
