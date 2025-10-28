@@ -1097,6 +1097,50 @@ textarea {
     margin: 0px 0.5rem 0rem 0.5rem;
 }
 
+.traco_carinhoso {
+    color: #1D4ED8;
+    background-color: #DBEAFE;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.traco_brincalhao {
+    color: #15803D;
+    background-color: #DCFCE7;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.traco_obediente {
+    color: #7E22CE;
+    background-color: #F3E8FF;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.traco_ama_criancas {
+    color: #A16207;
+    background-color: #FEF9C3;
+    width: 7rem;
+    height: 2rem;    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
 #links_adote_pets {
     display: flex;
     justify-content: center;
