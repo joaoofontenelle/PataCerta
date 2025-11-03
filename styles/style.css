@@ -1177,13 +1177,39 @@ textarea {
     padding-bottom: 0px;
 }
 
+#requisitos_adocao {
+    background-color: var(--cor_setenaria);
+    width: 25rem;
+    text-align: left;
+    border: 2px solid var(--cor_principal);
+    border-radius: 0.5rem;
+    padding: 1rem 0rem 2.5rem 1rem;
+}
+
+#requisitos_ongVerificada {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#requisitos_adocao > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--cor_quinaria);
+}
+
+#requisitos_adocao > div > p {
+    padding: 0px;
+    margin: 0.25rem 0rem 0.25rem 0rem;
+}
+
 @media (max-width: 768px) {
-    /* Oculta a segunda div de imagens menores, como já estava no código original */
     #fts_adote_pets > div:nth-child(2) {
         display: none;
     }
 
-    /* Ajuste no container principal de bio para layout de coluna */
     #bio_adote_pets {
         flex-direction: column;
         gap: 1rem;
@@ -1191,7 +1217,6 @@ textarea {
         box-sizing: border-box;
     }
     
-    /* Ajuste no container de fotos para garantir largura total e centralização */
     #fts_adote_pets {
         max-width: 100%;
         margin: 0 auto;
@@ -1199,15 +1224,13 @@ textarea {
         box-sizing: border-box;
     }
     
-    /* Ajuste nas imagens para garantir que ocupem 100% da largura do container e sejam responsivas */
     .ft_adote_pets {
-        width: 100% !important; /* Sobrescreve o width="450rem" do HTML */
+        width: 100% !important;
         height: auto;
         display: block;
         margin: 0 auto;
     }
 
-    /* Ajuste na seção de dados (nome, localização, status) */
     #dados_adote_pets {
         padding: 0 1rem;
         flex-direction: column;
@@ -1217,7 +1240,6 @@ textarea {
         box-sizing: border-box;
     }
     
-    /* Centraliza o texto do nome e localização */
     #dados_adote_pets > div:first-child {
         text-align: center;
         width: 100%;
@@ -1228,24 +1250,19 @@ textarea {
         text-align: center;
     }
     
-    /* Ajuste no status "Disponível" */
     #pet_disponivel {
         margin: 0.5rem 0rem 0.5rem 0rem;
-        width: auto;
-        height: auto;
         padding: 0.25rem 0.75rem;
     }
 
-    /* Ajuste no container dos cards de características (idade, sexo, etc.) */
     #conteineres_adote_pets {
         width: 100%;
         padding: 0 1rem;
         box-sizing: border-box;
     }
     
-    /* Ajuste nas linhas dos cards para garantir que fiquem lado a lado (2 colunas) */
     .linhas_conteineres {
-        display: flex; /* Garante que os cards fiquem lado a lado */
+        display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-right: 0;
@@ -1253,11 +1270,10 @@ textarea {
         margin: 0.5rem 0;
     }
 
-    /* Ajuste individual dos cards */
     .linhas_conteineres > div {
         padding: 0.75rem;
         margin: 0;
-        width: 49%; /* Garante que dois cards caibam na linha com um pequeno espaço */
+        width: 49%;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -1276,61 +1292,60 @@ textarea {
         width: 100%;
     }
     
-    /* Ajuste na seção "Sobre o Max" */
     #sobre_max {
-        padding: 1rem 1rem 0rem 1rem;
+        padding: 1rem 0rem 0rem 1rem;
     }
     
-    /* CORREÇÃO CRÍTICA: Remove a largura fixa que causava transbordamento */
     #sobre_max > p {
-        width: auto !important; /* Remove o width: 32rem; do HTML */
+        width: auto !important;
         margin: 0 auto;
         padding: 1rem 0;
         text-align: center;
     }
     
-    /* Ajuste na seção de traços de personalidade */
     #caracteristicas_adote_pets {
-        display: flex; /* Garante que os traços fiquem lado a lado */
-        flex-wrap: wrap; /* Permite que os traços quebrem a linha se necessário */
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        padding: 0 1rem;
+        gap: 0.5rem;
+        padding-left: 0.2rem;
     }
 
-    /* Ajuste individual dos traços de personalidade */
     .traco_carinhoso, .traco_brincalhao, .traco_obediente, .traco_ama_criancas {
-        width: auto;
+        width: 100%;
         padding: 0 0.75rem;
         margin: 0.25rem;
         font-size: 0.8rem;
     }
     
-    /* Ajuste na seção de links/botões */
     #links_adote_pets {
-        display: flex; /* Garante que os botões fiquem lado a lado */
-        flex-direction: column; /* Altera para coluna para ocupar 100% da largura */
-        gap: 0.5rem; /* Adiciona espaço entre os botões */
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
         padding: 0 1rem;
         width: 100%;
         box-sizing: border-box;
     }
     
-    /* Ajuste individual dos botões para ocupar 100% da largura */
     #quero_adotar_pet, #quero_contatar_ong {
         width: 100%;
         box-sizing: border-box;
-        text-align: center; /* Centraliza o texto dentro do botão */
-        justify-content: center; /* Centraliza o conteúdo (ícone e texto) se for um flex container */
-        display: flex; /* Garante que o conteúdo interno seja flexível para centralização */
+        text-align: center;
+        justify-content: center;
+        display: flex;
         align-items: center;
+        margin-left: 0.66rem;
     }
 
-    /* Ajuste para o ícone dentro dos botões */
     #quero_adotar_pet img, #quero_contatar_ong img {
-        margin-right: 0.5rem; /* Adiciona um pequeno espaço à direita do ícone */
+        margin-right: 0.5rem;
+    }
+
+    #requisitos_adocao {
+        max-width: 72.5%;
+        margin: auto;
     }
 }
-
 
  
 /* --------- SEJA COLABORADOR --------- */
@@ -1817,72 +1832,6 @@ textarea {
     max-width: 70%;
 }
 
-@media (max-width: 600px) {
-    #sub_conteineres {
-        max-width: 100%;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-
-    .sub_conteiner {
-        height: auto;
-        width: 87.5%;
-        display: flex;
-        align-items: stretch;
-        padding: 0;
-        margin: 0 auto 1rem auto;
-    }
-
-    .sub_conteiner > div:first-child {
-        flex: 0 0 45%;
-        max-width: 45%;
-        height: auto;
-    }
-
-    .sub_conteiner > div > img {
-        width: 100%;
-        max-width: 100%;
-        border-radius: 0.5rem 0 0 0.5rem;
-        height: 100%;
-        display: block;
-        object-fit: cover;
-    }
-
-    .direita_conteiner_blog {
-        flex-grow: 1;
-        max-width: none;
-        padding: 0.5rem 0.5rem 0.5rem 0.75rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .direita_conteiner_blog > p,
-    .direita_conteiner_blog > h3 {
-        max-width: none;
-    }
-
-    .autor_blog {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        margin-top: 0.5rem;
-    }
-
-    .autor_blog img {
-        width: 3rem;
-        height: 3rem;
-        border-radius: 50%;
-        object-fit: cover;
-    }
-
-    .autor_blog p {
-        font-size: 0.75rem;
-        margin: 0;
-    }
-}
-
-
 #ultimos_artigos {
     margin-bottom: 2rem;
 }
@@ -2116,6 +2065,71 @@ textarea {
     color: #d97706;
     border-radius: 1rem;
     font-size: small;
+}
+
+@media (max-width: 600px) {
+    #sub_conteineres {
+        max-width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .sub_conteiner {
+        height: auto;
+        width: 87.5%;
+        display: flex;
+        align-items: stretch;
+        padding: 0;
+        margin: 0 auto 1rem auto;
+    }
+
+    .sub_conteiner > div:first-child {
+        flex: 0 0 45%;
+        max-width: 45%;
+        height: auto;
+    }
+
+    .sub_conteiner > div > img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 0.5rem 0 0 0.5rem;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .direita_conteiner_blog {
+        flex-grow: 1;
+        max-width: none;
+        padding: 0.5rem 0.5rem 0.5rem 0.75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .direita_conteiner_blog > p,
+    .direita_conteiner_blog > h3 {
+        max-width: none;
+    }
+
+    .autor_blog {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .autor_blog img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .autor_blog p {
+        font-size: 0.75rem;
+        margin: 0;
+    }
 }
 
 
@@ -2610,11 +2624,9 @@ textarea {
     #continue_com_p {
         font-size: 0.8rem;
     }
-}
 
-@media screen and (max-width: 480px) {
     #conteiner_login {
-        max-width: 350px;
+        max-width: 330px;
         border-radius: 0.5rem;
     }
 
