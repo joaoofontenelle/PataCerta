@@ -1205,6 +1205,19 @@ textarea {
     margin: 0.25rem 0rem 0.25rem 0rem;
 }
 
+#sobre_ong_verificada {
+    text-align: left;
+}
+
+#estatisticas_ong_verificada > div {
+    display: flex;
+    align-items: center;
+}
+
+#estatisticas_ong_verificada > div > p {
+    padding: 0px;
+}
+
 @media (max-width: 768px) {
     #fts_adote_pets > div:nth-child(2) {
         display: none;
