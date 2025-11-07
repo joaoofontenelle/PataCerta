@@ -1241,6 +1241,16 @@ textarea {
     padding: 1rem;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.444);
     border-radius: 0.5rem;
+    width: 30rem;
+}
+
+#selo {
+    border-radius: 100%; 
+    background-color: #22C55E; 
+    padding: 0.17rem; 
+    height: 0.75rem; 
+    margin-top: 0.5rem; 
+    width: 0.70rem;
 }
 
 @media (max-width: 768px) {
@@ -1380,8 +1390,31 @@ textarea {
     }
 
     #requisitos_adocao {
-        max-width: 67.75%;
+        max-width: 67.5%;
         margin: auto;
+    }
+
+    #conteiner_ong_verificada {
+        max-width: 91.75%;
+        margin: auto;
+        gap: 0rem;
+    }
+
+    #estatisticas_ong_verificada > div > p {
+        width: 10rem;
+    }
+
+    #amigos_dos_animais {
+        gap: 0.25rem;
+    }
+
+    #selo {
+        border-radius: 100%; 
+        background-color: #22C55E; 
+        padding: 0.10rem; 
+        height: 0.60rem; 
+        margin-top: 0.5rem; 
+        width: 0.6rem;
     }
 }
 
