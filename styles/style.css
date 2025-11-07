@@ -1218,6 +1218,12 @@ textarea {
     padding: 0px;
 }
 
+#amigos_dos_animais {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
 @media (max-width: 768px) {
     #fts_adote_pets > div:nth-child(2) {
         display: none;
