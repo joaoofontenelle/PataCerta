@@ -998,6 +998,7 @@ textarea {
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .linhas_conteineres > div > * {
@@ -1183,14 +1184,16 @@ textarea {
     text-align: left;
     border: 2px solid var(--cor_principal);
     border-radius: 0.5rem;
-    padding: 1rem 0rem 2.5rem 1rem;
+    padding: 2rem 1rem 3.75rem 2rem;
 }
 
 #requisitos_ongVerificada {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
+    max-width: 95%;
+    margin: auto;
 }
 
 #requisitos_adocao > div {
@@ -1209,9 +1212,17 @@ textarea {
     text-align: left;
 }
 
+#estatisticas_ong_verificada {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 2rem 0rem 0rem 0.85rem;
+}
+
 #estatisticas_ong_verificada > div {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
 }
 
 #estatisticas_ong_verificada > div > p {
@@ -1222,6 +1233,14 @@ textarea {
     display: flex;
     gap: 0.5rem;
     align-items: center;
+}
+
+#conteiner_ong_verificada {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.444);
+    border-radius: 0.5rem;
 }
 
 @media (max-width: 768px) {
@@ -1361,7 +1380,7 @@ textarea {
     }
 
     #requisitos_adocao {
-        max-width: 72.5%;
+        max-width: 67.75%;
         margin: auto;
     }
 }
